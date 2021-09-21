@@ -1,0 +1,675 @@
+<!-- include "meta-head.html" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kooba</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Lexend:wght@400;500&display=swap" rel="stylesheet">
+
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement("picture");
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js"
+            integrity="sha256-iT+n/otuaeKCgxnASny7bxKeqCDbaV1M7VdX1ZRQtqg="
+            crossorigin="anonymous"
+            async></script>
+
+</head>
+
+
+<body>
+<!-- include "partial-header.html" -->
+<header class="header">
+	<div class="wrapper header__wrapper">
+		<div class="header__logo-container">
+			<a class="header__logo-link" href="../" aria-label="Click to go to homepage">
+				<svg width="231" height="49" viewBox="0 0 231 49" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				    <defs><path id="a" d="M0 0h48.58v48.572H0z"/></defs>
+				    <g fill="none" fill-rule="evenodd">
+				        <path d="M25.966 24.29c0 .925-.752 1.677-1.676 1.677a1.678 1.678 0 0 1-1.677-1.677c0-.924.752-1.676 1.677-1.676.924 0 1.676.752 1.676 1.676zm-6.009 0a4.337 4.337 0 0 0 4.333 4.333 4.337 4.337 0 0 0 4.332-4.333 4.337 4.337 0 0 0-4.332-4.332 4.337 4.337 0 0 0-4.333 4.332z" fill="#FFF"/>
+				        <path d="M33.614 11.756a1.328 1.328 0 0 0-.428-1.829 16.854 16.854 0 0 0-8.896-2.53c-9.315 0-16.893 7.579-16.893 16.893 0 3.127.861 6.182 2.49 8.833a1.327 1.327 0 1 0 2.264-1.39 14.207 14.207 0 0 1-2.098-7.443c0-7.85 6.387-14.236 14.237-14.236a14.2 14.2 0 0 1 7.495 2.13 1.328 1.328 0 0 0 1.829-.428" fill="#FFF"/>
+				        <g><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path d="M36.973 15.17a1.328 1.328 0 0 0-.458 1.821 14.215 14.215 0 0 1 2.011 7.3c0 7.85-6.386 14.236-14.236 14.236a14.18 14.18 0 0 1-7.737-2.284 1.328 1.328 0 0 0-1.446 2.229 16.83 16.83 0 0 0 9.183 2.711c9.314 0 16.892-7.578 16.892-16.893 0-3.057-.825-6.052-2.388-8.663a1.328 1.328 0 0 0-1.821-.457" fill="#FFF" mask="url(#b)"/>
+				            <path d="M24.29 0c-4.453 0-8.8 1.219-12.586 3.517a2.446 2.446 0 0 1 1.345 2.178c0 .04-.01.078-.011.117A21.584 21.584 0 0 1 24.29 2.657c11.928 0 21.633 9.705 21.633 21.633 0 4.039-1.12 7.977-3.238 11.39a1.328 1.328 0 0 0 2.257 1.401 24.233 24.233 0 0 0 3.637-12.79C48.58 10.896 37.683 0 24.29 0M35.337 42.955c0-.022.006-.044.007-.066a21.601 21.601 0 0 1-11.054 3.035c-11.93 0-21.634-9.705-21.634-21.634 0-4.191 1.2-8.257 3.47-11.756a1.328 1.328 0 0 0-2.228-1.446A24.2 24.2 0 0 0 0 24.29c0 13.394 10.896 24.29 24.29 24.29 4.388 0 8.688-1.184 12.437-3.422a2.448 2.448 0 0 1-1.39-2.203" fill="#FFF" mask="url(#b)"/></g>
+				        <path d="M37.792 40.5a2.45 2.45 0 0 0-2.448 2.389c0 .022-.007.044-.007.066 0 .973.57 1.805 1.39 2.203a2.43 2.43 0 0 0 1.065.252 2.455 2.455 0 1 0 0-4.91M11.704 3.517a2.429 2.429 0 0 0-1.11-.277 2.455 2.455 0 1 0 0 4.91 2.449 2.449 0 0 0 2.444-2.338c.001-.04.011-.077.011-.117 0-.954-.55-1.772-1.345-2.178M67.986 37.835V16.563h-6.671v-3.711h17.222v3.711h-6.875v21.272h-3.676M86.807 22.06c-1.339 0-2.507.327-3.505.982-1 .654-1.657 1.778-1.974 3.372h10.006v-.25a4.221 4.221 0 0 0-.765-2.141 4.69 4.69 0 0 0-1.651-1.446 4.486 4.486 0 0 0-2.11-.517zm7.318 13.312h-.034c-.727.738-1.724 1.393-2.995 1.963a9.614 9.614 0 0 1-3.982.857c-1.861 0-3.5-.41-4.919-1.231a8.703 8.703 0 0 1-3.318-3.391c-.795-1.44-1.191-3.075-1.191-4.908 0-2.093.42-3.883 1.259-5.37.84-1.488 1.951-2.63 3.336-3.427a8.91 8.91 0 0 1 4.526-1.195c1.498 0 2.86.387 4.085 1.159 1.225.774 2.2 1.838 2.927 3.195.726 1.355 1.089 2.939 1.089 4.746l-.034 1.57H81.19c.205 1.69.868 3.029 1.992 4.016 1.123.988 2.546 1.481 4.271 1.481 1.248 0 2.258-.244 3.029-.731.771-.488 1.407-.958 1.906-1.41l1.736 2.676zM108.726 23.059a4.256 4.256 0 0 0-1.872-.428c-.726 0-1.44.196-2.144.589a4.905 4.905 0 0 0-1.752 1.677c-.466.727-.698 1.589-.698 2.588v10.35h-3.54V19.097h3.54v3.534a6.815 6.815 0 0 1 2.263-2.82c1.01-.737 2.07-1.106 3.183-1.106.839 0 1.485.12 1.94.357l-.92 3.997M121.524 18.777c1.475 0 2.655.35 3.54 1.052.884.703 1.52 1.66 1.906 2.873.317-.594.783-1.195 1.395-1.802a8.168 8.168 0 0 1 2.145-1.517 5.825 5.825 0 0 1 2.62-.606c1.543 0 2.746.35 3.608 1.052.862.703 1.469 1.642 1.821 2.82.351 1.178.527 2.493.527 3.944v11.242h-3.54V26.807c0-1.38-.249-2.499-.748-3.355-.5-.857-1.441-1.285-2.825-1.285-1.316 0-2.4.434-3.25 1.302-.851.87-1.277 1.922-1.277 3.16v11.206h-3.54v-11.1c0-1.332-.272-2.427-.816-3.283-.545-.857-1.442-1.285-2.69-1.285-.862 0-1.633.203-2.314.607a4.474 4.474 0 0 0-1.6 1.588c-.386.655-.578 1.387-.578 2.195v11.278h-3.54V19.097h3.54v2.999c.545-.857 1.31-1.624 2.297-2.302a5.725 5.725 0 0 1 3.319-1.017M144.43 37.835h3.505V19.097h-3.505v18.738zm1.702-22.806c-.795 0-1.385-.214-1.77-.642-.386-.429-.58-.988-.58-1.678 0-.594.194-1.13.58-1.606.385-.476.975-.714 1.77-.714.794 0 1.383.214 1.77.643.385.428.578.987.578 1.677 0 .595-.193 1.13-.578 1.606-.387.477-.976.714-1.77.714zM162.604 18.705c1.612 0 2.86.345 3.744 1.035.886.69 1.504 1.618 1.855 2.784.351 1.166.528 2.463.528 3.89v11.421h-3.506V26.664c0-.904-.113-1.713-.34-2.427-.227-.714-.613-1.273-1.158-1.678-.543-.404-1.305-.57-2.28-.5-.908 0-1.713.204-2.417.607a4.633 4.633 0 0 0-1.667 1.607 4.145 4.145 0 0 0-.612 2.213v11.35h-3.506V19.096h3.506v2.963c.545-.88 1.338-1.66 2.381-2.338a6.242 6.242 0 0 1 3.472-1.017M185.68 30.375V19.097h3.506v18.738h-3.505v-2.998c-.523.88-1.288 1.66-2.298 2.338-1.01.678-2.219 1.017-3.624 1.017-1.862 0-3.37-.666-4.528-1.999-1.156-1.332-1.735-3.176-1.735-5.532V19.097h3.506v10.565c0 .952.141 1.832.426 2.64.282.81.736 1.459 1.36 1.946.625.488 1.424.732 2.4.732 1.225 0 2.28-.405 3.165-1.214.885-.808 1.328-1.939 1.328-3.39M204.4 24.023a8.476 8.476 0 0 0-2.162-1.642c-.805-.428-1.548-.643-2.228-.643-.478 0-.948.06-1.413.18-.466.118-.857.338-1.175.66-.317.32-.476.79-.476 1.409.023.857.391 1.464 1.106 1.82.714.357 1.605.679 2.672.964a20.2 20.2 0 0 1 2.723.981 5.59 5.59 0 0 1 2.195 1.713c.578.75.868 1.803.868 3.16 0 1.165-.312 2.164-.935 2.997a6.03 6.03 0 0 1-2.417 1.91c-.988.44-2.026.66-3.115.66-1.293 0-2.57-.245-3.829-.731-1.26-.488-2.33-1.327-3.216-2.517l2.382-2.141a6.978 6.978 0 0 0 2.093 1.73c.784.417 1.741.625 2.877.625.43 0 .862-.077 1.293-.232a2.66 2.66 0 0 0 1.106-.75c.306-.344.46-.814.46-1.409 0-.57-.166-1.017-.493-1.338-.33-.322-.766-.583-1.31-.786a17.863 17.863 0 0 0-1.805-.553 23.185 23.185 0 0 1-2.876-1.052 6.178 6.178 0 0 1-2.349-1.785c-.624-.773-.935-1.826-.935-3.159 0-1.118.3-2.076.901-2.873.601-.797 1.39-1.415 2.366-1.856a7.514 7.514 0 0 1 3.13-.66c1.068 0 2.224.238 3.473.714a7.035 7.035 0 0 1 3.097 2.284l-2.008 2.32M208.586 37.835l8.543-12.777-8.372-12.206h4.663l6.227 9.529 5.957-9.53h4.322l-8.236 12.6 8.578 12.384h-4.664l-6.364-9.672-6.33 9.672h-4.324" fill="#FFF"/></g></svg>
+
+			</a>
+		</div>
+
+		
+		<div class="header__items">
+			<nav class="header__nav">
+				<ul class="header__nav-list">
+					<li class="header__nav-item header__nav-item--has-child">
+						<a href="https://terminusdb.com/" class="header__nav-link">TerminusDB</a>
+						<i class="icon-caret-down header__nav-link-icon"></i>
+						<div class="header__nav-dropdown header__nav-dropdown--desktop">
+							<div class="header__nav-main">
+								<ul class="header__nav-dropdown-plain-list">
+									<li class="header__nav-dropdown-plain-item">
+										<a href="https://terminusdb.com/aboutus/" class="header__nav-dropdown-plain-link">
+											About Us
+										</a>
+									</li>
+									<li class="header__nav-dropdown-plain-item">
+										<a href="https://terminusdb.com/community/" class="header__nav-dropdown-plain-link">
+											Community
+										</a>
+									</li>
+									<li class="header__nav-dropdown-plain-item">
+										<a href="https://academy.terminusdb.com/" class="header__nav-dropdown-plain-link">
+											Academy
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="header__nav-item">
+						<a href="https://terminusdb.github.io/terminusdb/#/" class="header__nav-link">Documentation</a>
+					</li>
+
+					<li class="header__nav-item">
+						<a href="https://blog.terminusdb.com/" class="header__nav-link">Blog</a>
+					</li>
+
+					<li class="header__nav-item">
+						<a href="../pricing" class="header__nav-link">Pricing</a>
+					</li>
+
+				</ul>
+
+				<a href="https://terminusdb.eu.auth0.com/login?state=hKFo2SAwR0I0d05XSnFDY19TVXNqZ3JsdjhITnZKNjJOTEgtYqFupWxvZ2luo3RpZNkgUWJZQWR2QjlKQXlsVWl1NnNNSWFiSkhwSTdTMjN0Sm2jY2lk2SA0RVlJSFFhVkxnd2k1VjVtMmdSTllkdHBaWmZid3REeg&client=4EYIHQaVLgwi5V5m2gRNYdtpZZfbwtDz&protocol=oauth2&redirect_uri=https%3A%2F%2Fterminusdb.com%2Fhub&audience=https%3A%2F%2Fterminusdb.com%2Fhubservices&returnTo=https%3A%2F%2Fterminusdb.com%2Fhub%2Fdownload&scope=openid%20profile%20email&response_type=code&response_mode=query&nonce=MmJtMC5kSXdwcWRIQX5hMGxSWXNUdV9UVW04ZmtQUmxxSVhFVWxtU09hVA%3D%3D&code_challenge=q9183XwKyFziOWFXhcO6ssknqnMxUEUgBX_FmkyDXyY&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMTcuMSJ9" class="button button--ghost button--small header__button button--hidden-mobile">Sign in</a>
+			</nav>
+
+			<a href="../pricing" class="button button--full-width button--hidden-desktop">Free trial</a>
+		</div>
+		<div class="header__burger">
+			<button class="hamburger" type="button">
+               <span class="hamburger__box">
+                   <span class="hamburger__inner"></span>
+               </span>
+			</button>
+		</div>
+		
+
+		
+	</div>
+</header>
+
+
+
+<main>
+  <h1>Policy</h1>
+  
+			<h2 class="h1 box__text">INTRODUCTION</h2>
+			<h3 class="h3 box__text">Welcome to the TerminusDB’s privacy notice.</h3>
+			<p class="box__text">
+				TerminusDB respects your privacy and is committed to protecting your personal data. This privacy notice will inform you as to how we look after your personal data when you visit our website and use our products (regardless of where you visit it from) and tell you about your privacy rights and how the law protects you.
+			</p>
+  
+ 
+ 
+<p class="box__text "> 
+	This privacy notice is provided in a layered format so you can click through to the specific areas set out below. Please also use the Glossary to understand the meaning of some of the terms used in this privacy notice.</p>
+<div class="header--dark">
+	<a href="#01" class="menu__link" >1. IMPORTANT INFORMATION AND WHO WE ARE</a><br><br>
+	 
+	<a href="#02" class="menu__link" >2. THE DATA WE COLLECT ABOUT YOU</a><br><br>
+	 
+	<a href="#03" class="menu__link" >3. HOW IS YOUR PERSONAL DATA COLLECTED </a><br><br>
+	 
+	<a href="#04" class="menu__link" >4. HOW WE USE YOUR PERSONAL DATA </a><br><br>
+	 
+	<a href="#05" class="menu__link" >5. DISCLOSURES OF YOUR PERSONAL DATA</a><br><br>
+	 
+	<a href="#06" class="menu__link" >6. INTERNATIONAL TRANSFERS</a><br><br>
+	 
+	<a href="#07" class="menu__link" >7. DATA SECURITY</a><br><br>
+	 
+	<a href="#08" class="menu__link" >8. DATA RETENTION</a><br><br>
+	 
+	<a href="#09" class="menu__link" >9. YOUR LEGAL RIGHTS</a><br><br>
+	 
+	<a href="#010" class="menu__link" >10. GLOSSARY</a><br><br>
+</div>
+<div class="header--dark ">
+	<span class="menu__body"><a href="#top" class="menu__link" >Back to top</a><span>
+</div>
+<a name="01" ></a><h3 class="h3 box__text"> 1. IMPORTANT INFORMATION AND WHO WE ARE  </h3>
+
+<h3 class="h3 box__text">PURPOSE OF THIS PRIVACY NOTICE </h3>
+ 
+<p class="box__text"> This privacy notice aims to give you information on how TerminusDB (Data Chemist Ltd.) collects and processes your personal data through your use of this website, including any data you may provide through this website when you sign up to our newsletter, purchase or use a product or service or take part in a competition.</p>
+ <p class="box__text">
+This website is not intended for children and we do not knowingly collect data relating to children.
+</p>
+<p class="box__text"> 
+It is important that you read this privacy notice together with any other privacy notice or fair processing notice we may provide on specific occasions when we are collecting or processing personal data about you so that you are fully aware of how and why we are using your data. This privacy notice supplements the other notices and is not intended to override them.</p>
+ 
+<h3 class="h3 box__text">CONTROLLER </h3> 
+ 
+<p class="box__text">Data Chemist Limited, trading as TerminusDB is the controller and responsible for your personal data (collectively referred to as “Data Chemist”, ”TerminusDB”, “we”, “us” or “our” in this privacy notice).</p>
+<p class="box__text">
+We have appointed a data privacy manager who is responsible for overseeing questions in relation to this privacy notice. If you have any questions about this privacy notice, including any requests to exercise your legal rights, please contact the data privacy manager using the details set out below.</p>
+ 
+ 
+<h3 class="h3 box__text">CONTACT DETAILS </h3>
+ 
+<h4 class="h4 box__text">Our full details are:<br><br>
+ 
+Full name of legal entity: Data Chemist Limited<br><br>
+Name or title of data privacy manager: Sreya Chatterjee<br><br>
+ 
+Email address: security@terminusdb.com<br><br>
+ 
+Postal address: 20 Harcourt Street, Dublin 2, D02 H364</h4>
+ 
+<p class="box__text">You have the right to make a complaint at any time to the Data Protection Commissioner (DPC), the Irish supervisory authority for data protection issues (www.dataprotection.ie). We would, however, appreciate the chance to deal with your concerns before you approach the DPC so please contact us in the first instance.</p>
+ 
+<h3 class="h3 box__text">CHANGES TO THE PRIVACY NOTICE AND YOUR DUTY TO INFORM US OF CHANGES </h3>
+ 
+<p class="box__text">This version was last updated on 06/09/2021 and historic versions can be obtained by contacting us.</p>
+ 
+<p class="box__text">It is important that the personal data we hold about you is accurate and current. Please keep us informed if your personal data changes during your relationship with us.</p>
+ 
+<h3 class="h3 box__text">THIRD-PARTY LINKS </h3>
+ 
+<p class="box__text">This website may include links to third-party websites, plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements. When you leave our website, we encourage you to read the privacy notice of every website you visit.</p>
+
+<div class="header--dark ">
+	<span class="menu__body"><a href="#top" class="menu__link" >Back to top</a><span>
+</div> 
+<a name="02"></a><h3 class="h3 box__text">2.  THE DATA WE COLLECT ABOUT YOU</h3>
+ 
+<p class="box__text">Personal data, or personal information, means any information about an individual from which that person can be identified. It does not include data where the identity has been removed (anonymous data).</p>
+ 
+<p class="box__text">We may collect, use, store and transfer different kinds of personal data about you which we have grouped together follows:
+ 
+<br><br>• Identity Data includes first name, last name, username or similar identifier, date of birth and gender.
+<br><br>•       Contact Data includes billing address, delivery address, email address and telephone numbers.
+<br><br>•       Financial Data includes bank account and payment card details.
+<br><br>•       Transaction Data includes details about payments to and from you and other details of products and services you have purchased from us.
+<br><br>•       Technical Data includes internet protocol (IP) address, your login data, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform and other technology on the devices you use to access this website.
+<br><br>•       Profile Data includes your username and password, purchases or orders made by you, your interests, preferences, feedback and survey responses.
+<br><br>•       Usage Data includes information about how you use our website, products and services.
+<br><br>•       Marketing and Communications Data includes your preferences in receiving marketing from us and our third parties and your communication preferences.
+We also collect, use and share Aggregated Data such as statistical or demographic data for any purpose. Aggregated Data may be derived from your personal data but is not considered personal data in law as this data does not directly or indirectly reveal your identity. For example, we may aggregate your Usage Data to calculate the percentage of users accessing a specific website feature. However, if we combine or connect Aggregated Data with your personal data so that it can directly or indirectly identify you, we treat the combined data as personal data which will be used in accordance with this privacy notice.
+</p>
+ 
+<p class="box__text">We do not collect any Special Categories of Personal Data about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health and genetic and biometric data) though the data that is input into our products may contain such special categories of personal data. Similarly we don’t collect any information about criminal convictions and offences.</p>
+ 
+<h3 class="h3 box__text">IF YOU FAIL TO PROVIDE PERSONAL DATA </h3>
+<p class="box__text">Where we need to collect personal data by law, or under the terms of a contract we have with you and you fail to provide that data when requested, we may not be able to perform the contract we have or are trying to enter into with you (for example, to provide you with goods or services). In this case, we may have to cancel a product or service you have with us but we will notify you if this is the case at the time.</p>
+<div class="header--dark ">
+	<span class="menu__body"><a href="#top" class="menu__link" >Back to top</a><span>
+</div> 
+<a name="03"></a><h3 class="h3 box__text">3.  HOW IS YOUR PERSONAL DATA COLLECTED?</h3>  
+ 
+<p class="box__text">We use different methods to collect data from and about you including through:
+ 
+<br><br>•       Direct interactions. You may give us your Identity, Contact and Financial Data by filling in forms or by corresponding with us by post, phone, email or otherwise. This includes personal data you provide when you:
+<br><br>•       apply for our products or services;
+<br><br>•       create an account on our website;
+<br><br>•       subscribe to our service;
+<br><br>•       request marketing to be sent to you;
+<br><br>•       enter a competition, promotion or survey; or
+<br><br>•       give us some feedback.
+
+<br><br>•       Third parties or publicly available sources. We may receive personal data about you from various third parties [and public sources] as set out below:
+<br><br>•       Technical Data from the following parties:
+<br><br>    	- (a)  analytics providers [such as Google based outside the EU]; and
+
+
+<br><br>- (b)  search information providers [such as Google based outside the EU].
+ 
+<br><br>•       Contact, Financial and Transaction Data from providers of technical, payment and delivery services.
+<br><br>•       Identity and Contact Data from data brokers or aggregators.
+<br><br>•       Identity and Contact Data from publicly availably sources.</p>
+<div class="header--dark ">
+	<span class="menu__body"><a href="#top" class="menu__link" >Back to top</a><span>
+</div>
+<a name="04"></a><h3 class="h3 box__text">4.  HOW WE USE YOUR PERSONAL DATA </h3>
+<p class="box__text"> 
+We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:
+ 
+<br><br>•       Where we need to perform the contract we are about to enter into or have entered into with you or where you have provided your personal data to someone to use in conjunction with our products or services.
+<br><br>•       Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.
+<br><br>•       Where we need to comply with a legal or regulatory obligation.
+Generally we do not rely on consent as a legal basis for processing your personal data other than in relation to sending third party direct marketing communications to you via email or text message. You have the right to withdraw consent to marketing at any time by Contacting us.</p>
+ 
+ 
+<h3 class="h3 box__text">PURPOSES FOR WHICH WE WILL USE YOUR PERSONAL DATA</h3>
+ 
+<p class="box__text"> We have set out below, in a table format, a description of all the ways we plan to use your personal data, and which of the legal bases we rely on to do so. We have also identified what our legitimate interests are where appropriate.</p>
+ 
+<p class="box__text"> Note that we may process your personal data for more than one lawful ground depending on the specific purpose for which we are using your data. Please Contact us if you need details about the specific legal ground we are relying on to process your personal data where more than one ground has been set out in the table below.</p>
+ 
+<h4 class="h4 box__text">Purpose/Activity</h4>
+ 
+<h4 class="h4 box__text">Type of data</h4>
+ 
+<h4 class="h4 box__text">Lawful basis for processing including basis of legitimate interest</h4>
+
+<h4 class="h4 box__text">To register you as a new customer</h4>
+<p class="box__text">
+ (a) Identity
+<br>(b) Contact </p>
+
+<h4 class="h4 box__text">Performance of a contract with you
+<br>To process and deliver your order including:</h4>
+<p class="box__text"> 
+(a) Manage payments, fees and charges
+<br>(b) Collect and recover money owed to us</p>
+<p class="box__text"> 
+(a) Identity
+<br>(b) Contact
+<br>(c) Financial
+<br>(d) Transaction
+<br>(e) Marketing and Communications
+</p>
+
+<p class="box__text"> 
+(a) Performance of a contract with you
+<br>(b) Necessary for our legitimate interests (to recover debts due to us)
+</p>
+
+<h4 class="h4 box__text">To manage our relationship with you which will include:</h4>
+<p class="box__text"> 
+(a) Notifying you about changes to our terms or privacy policy
+<br>(b) Asking you to leave a review or take a survey</p>
+
+<p class="box__text">(a) Identity
+	<br>(b) Contact
+	<br>(c) Profile
+	<br>(d) Marketing and Communications
+ </p>
+
+<p class="box__text">
+(a) Performance of a contract with you
+<br>(b) Necessary to comply with a legal obligation
+<br>(c) Necessary for our legitimate interests (to keep our records updated and to study how customers use our products/services)
+</p>
+
+<h4 class="h4 box__text">To enable you to partake in a prize draw, competition or complete a survey</h4>
+<p class="box__text"> 
+ (a) Identity
+<br>(b) Contact
+<br>(c) Profile
+<br>(d) Usage
+<br>(e) Marketing and Communications
+</p>
+<p class="box__text"> 
+(a) Performance of a contract with you
+<br>(b) Necessary for our legitimate interests (to study how customers use our products/services, to develop them and grow our business)
+</p>
+
+<h4 class="h4 box__text">  
+To administer our products, services and protect our business and this website (including troubleshooting, data analysis, testing, system maintenance, support, reporting and hosting of data)
+</h4>
+<p class="box__text"> 
+(a) Identity
+<br>(b) Contact
+<br>(c) Technical
+ </p>
+ <p class="box__text"> 
+(a) Necessary for our legitimate interests (for running our business, provision of administration and IT services, network security, to prevent fraud and in the context of a business reorganisation or group restructuring exercise)
+<br>(b) Necessary to comply with a legal obligation
+ </p>
+<h4 class=" h4 box__text">  
+To deliver relevant website content and advertisements to you and measure or understand the effectiveness of the advertising we serve to you</h4>
+
+<p class="box__text">  
+(a) Identity
+<br>(b) Contact
+<br>(c) Profile
+<br>(d) Usage
+<br>(e) Marketing and Communications
+<br>(f) Technical
+</p>
+
+<h4 class=" h4 box__text"> 
+Necessary for our legitimate interests (to study how customers use our products/services, to develop them, to grow our business and to inform our marketing strategy)<br><br>
+  
+To use data analytics to improve our website, products/services, marketing, customer relationships and experiences</h4>
+
+<p class="box__text">
+(a) Technical
+<br>(b) Usage
+</p>
+
+<h4 class=" h4 box__text">   
+Necessary for our legitimate interests (to define types of customers for our products and services, to keep our website updated and relevant, to develop our business and to inform our marketing strategy)
+<br><br>
+To make suggestions and recommendations to you about goods or services that may be of interest to you
+</h4>
+<p class="box__text">  
+(a) Identity
+(b) Contact
+(c) Technical
+(d) Usage
+(e) Profile
+</p>
+<h4 class=" h4 box__text"> 
+Necessary for our legitimate interests (to develop our products/services and grow our business)
+</h4> 
+ 
+<h3 class="h3 box__text">MARKETING</h3>  
+<p class="box__text">  
+We strive to provide you with choices regarding certain personal data uses, particularly around marketing and advertising. We have established the following personal data control mechanisms:
+</p>
+
+<h3 class="h3 box__text">PROMOTIONAL OFFERS FROM US</h3> 
+<p class="box__text"> 
+We may use your Identity, Contact, Technical, Usage and Profile Data to form a view on what we think you may want or need, or what may be of interest to you. This is how we decide which products, services and offers may be relevant for you (we call this marketing).</p>
+<p class="box__text"> 
+You will receive marketing communications from us if you have requested information from us or purchased products or services from us or if you provided us with your details when you entered a competition or registered for a promotion and, in each case, you have not opted out of receiving that marketing.
+</p>
+
+<h3 class="h3 box__text">THIRD-PARTY MARKETING</h3>
+<p class="box__text"> 
+We will get your express opt-in consent before we share your personal data with any company outside the TerminusDB group of companies for marketing purposes.</p>
+ 
+<h3 class="h3 box__text">OPTING OUT</h3>
+<p class="box__text">  
+You can ask us or third parties to stop sending you marketing messages at any time by following the opt-out links on any marketing message sent to you or by Contacting us at any time.</p>
+<p class="box__text"> 
+Where you opt out of receiving these marketing messages, this will not apply to personal data provided to us as a result of a product/service purchase, warranty registration, product/service experience or other transactions.</p>
+ 
+<h3 class="h3 box__text">CHANGE OF PURPOSE </h3> 
+<p class="box__text"> 
+We will only use your personal data for the purposes for which we collected it, unless we reasonably consider that we need to use it for another reason and that reason is compatible with the original purpose. If you wish to get an explanation as to how the processing for the new purpose is compatible with the original purpose, please Contact us.</p>
+<p class="box__text"> 
+If we need to use your personal data for an unrelated purpose, we will notify you and we will explain the legal basis which allows us to do so.</p>
+<p class="box__text"> 
+Please note that we may process your personal data without your knowledge or consent, in compliance with the above rules, where this is required or permitted by law.</p>
+<div class="header--dark ">
+	<span class="menu__body"><a href="#top" class="menu__link" >Back to top</a><span>
+</div>
+<a name="05"></a><h3 class="h3 box__text">5.  DISCLOSURES OF YOUR PERSONAL DATA</h3>
+
+<p class="box__text"> 
+We may have to share your personal data with the parties set out below for the purposes set out in the table in paragraph 4 above.
+ 
+<br><br>•       Internal Third Parties as set out in the Glossary.
+<br><br>•       External Third Parties as set out in the Glossary.
+<br><br>•       Third parties to whom we may choose to sell, transfer, or merge parts of our business or our assets. Alternatively, we may seek to acquire other businesses or merge with them. If a change happens to our business, then the new owners may use your personal data in the same way as set out in this privacy notice.
+We require all third parties to respect the security of your personal data and to treat it in accordance with the law. We do not allow our third-party service providers to use your personal data for their own purposes and only permit them to process your personal data for specified purposes and in accordance with our instructions.</p>
+ <div class="header--dark ">
+	<span class="menu__body"><a href="#top" class="menu__link" >Back to top</a><span>
+</div>
+<a name="06"></a><h3 class="h3 box__text">6.  INTERNATIONAL TRANSFERS </h3> 
+<p class="box__text">  
+We share your personal data within the Data Chemist Group. This may involve transferring your data outside the European Economic Area (EEA).</p>
+<p class="box__text"> 
+Many of our external third parties are based outside the European Economic Area (EEA) so their processing of your personal data will involve a transfer of data outside the EEA.</p>
+<p class="box__text"> 
+Whenever we transfer your personal data out of the EEA, we ensure a similar degree of protection is afforded to it by ensuring at least one of the following safeguards is implemented:
+ 
+<br><br>•       We will only transfer your personal data to countries that have been deemed to provide an adequate level of protection for personal data by the European Commission.
+<br><br>•       Where we use certain service providers, we may use specific contracts approved by the European Commission which give personal data the same protection it has in Europe.
+<br><br>•       Where we use providers based in the US, we may transfer data to them if they are part of the Privacy Shield which requires them to provide similar protection to personal data shared between the Europe and the US.
+Please Contact us if you want further information on the specific mechanism used by us when transferring your personal data out of the EEA.</p>
+ <div class="header--dark ">
+	<span class="menu__body"><a href="#top" class="menu__link" >Back to top</a><span>
+</div>
+<a name="07"></a><h3 class="h3 box__text">7.  DATA SECURITY </h3> 
+<p class="box__text"> 
+We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorised way, altered or disclosed. In addition, we limit access to your personal data to those employees, agents, contractors and other third parties who have a business need to know. They will only process your personal data on our instructions and they are subject to a duty of confidentiality.
+</p>
+<p class="box__text">
+We have put in place procedures to deal with any suspected personal data breach and will notify you and any applicable regulator of a breach where we are legally required to do so.</p>
+<div class="header--dark ">
+	<span class="menu__body"><a href="#top" class="menu__link" >Back to top</a><span>
+</div> 
+<a name="08"></a><h3 class="h3 box__text">8.  DATA RETENTION </h3>
+ 
+<h3 class="h3 box__text">HOW LONG WILL YOU USE MY PERSONAL DATA FOR?</h3> 
+<p class="box__text"> 
+We will only retain your personal data for as long as necessary to fulfil the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.</p>
+<p class="box__text">
+To determine the appropriate retention period for personal data, we consider the amount, nature, and sensitivity of the personal data, the potential risk of harm from unauthorised use or disclosure of your personal data, the purposes for which we process your personal data and whether we can achieve those purposes through other means, and the applicable legal requirements.</p>
+<p class="box__text">
+Details of retention periods for different aspects of your personal data are available in our retention policy which you can request from us by Contacting us.</p>
+<p class="box__text">
+In some circumstances you can ask us to delete your data: see below for further information.</p>
+<p class="box__text">
+In some circumstances we may anonymise your personal data (so that it can no longer be associated with you) for research or statistical purposes in which case we may use this information indefinitely without further notice to you.</p>
+<div class="header--dark ">
+	<span class="menu__body"><a href="#top" class="menu__link" >Back to top</a><span>
+</div>
+<a name="09"></a><h3 class="h3 box__text">9.  YOUR LEGAL RIGHTS</h3> 
+<p class="box__text">
+Under certain circumstances, you have rights under data protection laws in relation to your personal data. 
+If you wish to exercise any of the rights under European or other legislation set out above, please Contact us.
+</p>
+
+<h4 class="h4 box__text">NO FEE USUALLY REQUIRED</h4>  
+<p class="box__text"> 
+You will not have to pay a fee to access your personal data (or to exercise any of the other rights). However, we may charge a reasonable fee if your request is clearly unfounded, repetitive or excessive. Alternatively, we may refuse to comply with your request in these circumstances.
+</p>
+
+<h4 class="h4 box__text">WHAT WE MAY NEED FROM YOU</h4>  
+<p class="box__text"> 
+We may need to request specific information from you to help us confirm your identity and ensure your right to access your personal data (or to exercise any of your other rights). This is a security measure to ensure that personal data is not disclosed to any person who has no right to receive it. We may also contact you to ask you for further information in relation to your request to speed up our response.
+</p>
+<h4 class="h4 box__text">TIME LIMIT TO RESPOND</h4>  
+<p class="box__text">  
+We try to respond to all legitimate requests within one month. Occasionally it may take us longer than a month if your request is particularly complex or you have made a number of requests. In this case, we will notify you and keep you updated.</p>
+
+<div class="header--dark ">
+	<span class="menu__body"><a href="#top" class="menu__link" >Back to top</a><span>
+</div>
+<a name="010"></a><h3 class="h3 box__text">10.  GLOSSARY</h3> 
+ 
+<h4 class="h4 box__text">TLAWFUL BASIS</h4> 
+<p class="box__text"> 
+Legitimate Interest means the interest of our business in conducting and managing our business to enable us to give you the best service/product and the best and most secure experience. We make sure we consider and balance any potential impact on you (both positive and negative) and your rights before we process your personal data for our legitimate interests. We do not use your personal data for activities where our interests are overridden by the impact on you (unless we have your consent or are otherwise required or permitted to by law). You can obtain further information about how we assess our legitimate interests against any potential impact on you in respect of specific activities by Contacting us.</p>
+<p class="box__text">
+Performance of Contract means processing your data where it is necessary for the performance of a contract to which you are a party or to take steps at your request before entering into such a contract.</p>
+<p class="box__text"> 
+Comply with a legal or regulatory obligation means processing your personal data where it is necessary for compliance with a legal or regulatory obligation that we are subject to.</p>
+
+<h4 class="h4 box__text"> THIRD PARTIES</h4> 
+ 
+<h4 class="h4 box__text">EXTERNAL THIRD PARTIES</h4> 
+<p class="box__text">
+•       Service providers acting as processors who provide hosting (such as Amazon Web Services), payment services (such as Strype or Pay Pal), miscellaneous IT services and system administration services.
+<br>•       Professional advisers acting as processors or joint controllers including lawyers, bankers, auditors and insurers who provide consultancy, banking, legal, insurance and accounting services.
+<br>•       The Revenue Commissioners, regulators and other authorities acting as processors or joint controllers based in Ireland.</p>
+
+<h4 class="h4 box__text">YOUR LEGAL RIGHTS</h4>  
+ 
+<p class="box__text">You have the right to:</p>
+<p class="box__text"> 
+Request access to your personal data (commonly known as a “data subject access request”). This enables you to receive a copy of the personal data we hold about you and to check that we are lawfully processing it.</p>
+<p class="box__text">
+Request correction of the personal data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.</p>
+<p class="box__text"> 
+Request erasure of your personal data. This enables you to ask us to delete or remove personal data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your personal data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your personal data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.</p>
+<p class="box__text">
+Object to processing of your personal data where we are relying on a legitimate interest (or those of a third party) and there is something about your particular situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your personal data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.</p>
+<p class="box__text"> 
+Request restriction of processing of your personal data. This enables you to ask us to suspend the processing of your personal data in the following scenarios: (a) if you want us to establish the data’s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.</p>
+<p class="box__text"> 
+Request the transfer of your personal data to you or to a third party. We will provide to you, or a third party you have chosen, your personal data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.</p>
+<p class="box__text">
+Withdraw consent at any time where we are relying on consent to process your personal data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent.</p>
+
+
+		</div>
+</main>
+
+<footer class="footer">
+	<div class="footer__row">
+		<div class="wrapper footer__wrapper">
+			<div class="footer__col">
+				<a href="../" class="footer__logo" aria-label="Click here to go to Homepage">
+					<?xml version="1.0" encoding="UTF-8"?>
+					<svg width="189px" height="40px" viewBox="0 0 189 40"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+					    <title>4</title>
+					    <desc>Created with Sketch.</desc>
+					    <defs>
+					        <polygon id="path-1" points="0 0.000571428571 39.6565714 0.000571428571 39.6565714 39.6502857 0 39.6502857"></polygon>
+					    </defs>
+					    <g id="UI_Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g id="TerminusDB_UI_Homepage_1920px_Desktop_006" transform="translate(-391.000000, -6515.000000)">
+					            <g id="Group-19-Copy" transform="translate(240.000000, 6435.000000)">
+					                <g id="Group-27" transform="translate(145.000000, 69.000000)">
+					                    <g id="4" transform="translate(6.000000, 11.000000)">
+					                        <path d="M20.8541492,19.5000566 C20.8541492,20.2466433 20.2466878,20.8541145 19.5,20.8541145 C18.7531991,20.8541145 18.1458508,20.2466433 18.1458508,19.5000566 C18.1458508,18.7533567 18.7531991,18.1458855 19.5,18.1458855 C20.2466878,18.1458855 20.8541492,18.7533567 20.8541492,19.5000566 Z M16,19.5000566 C16,21.4299171 17.5700575,23 19.5,23 C21.4298294,23 23,21.4299171 23,19.5000566 C23,17.5700829 21.4298294,16 19.5,16 C17.5700575,16 16,17.5700829 16,19.5000566 L16,19.5000566 Z" id="Fill-1" fill="#8659FA"></path>
+					                        <path d="M27.8335491,9.63776583 C28.1556972,9.11766768 27.9960806,8.4342136 27.4770059,8.11135779 C25.2561312,6.73007712 22.6943368,6 20.0682993,6 C12.3109779,6 6,12.3248423 6,20.0993223 C6,22.7092779 6.71716718,25.2587053 8.07431659,27.4717224 C8.28313571,27.8123393 8.64597496,28 9.01755874,28 C9.21518488,28 9.41514289,27.9470671 9.59562977,27.8358261 C10.1162202,27.5151905 10.278635,26.8326712 9.9588188,26.311054 C8.81620161,24.4471839 8.21201362,22.2992522 8.21201362,20.0993223 C8.21201362,13.5473241 13.5307801,8.21698995 20.0682993,8.21698995 C22.2817121,8.21698995 24.4402092,8.83185324 26.310487,9.99509231 C26.8292119,10.3178313 27.5111678,10.1580977 27.8335491,9.63776583" id="Fill-2" fill="#8659FA"></path>
+					                        <g id="Group-7">
+					                            <mask id="mask-2" fill="white">
+					                                <use xlink:href="#path-1"></use>
+					                            </mask>
+					                            <g id="Clip-4"></g>
+					                            <path d="M30.1819429,12.3833143 C29.6682286,12.6907429 29.5009143,13.3564571 29.8083429,13.8702857 C30.8822857,15.6648 31.4498286,17.7252571 31.4498286,19.8289143 C31.4498286,26.2370286 26.2365714,31.4504 19.8283429,31.4504 C17.5763429,31.4504 15.3925714,30.8058286 13.5126857,29.5862857 C13.0101714,29.2605714 12.3390857,29.4034286 12.0131429,29.9058286 C11.6873143,30.4082286 11.8302857,31.0795429 12.3325714,31.4053714 C14.5645714,32.8533714 17.1565714,33.6187429 19.8283429,33.6187429 C27.432,33.6187429 33.6181714,27.4326857 33.6181714,19.8289143 C33.6181714,17.3331429 32.9441143,14.8877714 31.6689143,12.7568 C31.3614857,12.2430857 30.6955429,12.0758857 30.1819429,12.3833143" id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)"></path>
+					                            <path d="M19.8283429,0.000571428571 C16.1938286,0.000571428571 12.6448,0.994742857 9.55428571,2.87074286 C10.2034286,3.2024 10.6524571,3.87005714 10.6524571,4.64902857 C10.6524571,4.68171429 10.6444571,4.71234286 10.6428571,4.74468571 C13.4025143,3.06045714 16.5769143,2.16891429 19.8283429,2.16891429 C29.5660571,2.16891429 37.4883429,10.0910857 37.4883429,19.8289143 C37.4883429,23.1254857 36.5742857,26.3408 34.8450286,29.1272 C34.5294857,29.6358857 34.6858286,30.3043429 35.1946286,30.6198857 C35.3726857,30.7304 35.5700571,30.7830857 35.7653714,30.7830857 C36.1278857,30.7830857 36.4821714,30.6012571 36.6875429,30.2705143 C38.6299429,27.1405714 39.6565714,23.5298286 39.6565714,19.8289143 C39.6565714,8.89554286 30.7616,0.000571428571 19.8283429,0.000571428571" id="Fill-5" fill="#FFFFFF" mask="url(#mask-2)"></path>
+					                            <path d="M28.8466286,35.0656 C28.8466286,35.0469714 28.8516571,35.0297143 28.8521143,35.0112 C26.1321143,36.6315429 23.0129143,37.4888 19.8283429,37.4888 C10.0905143,37.4888 2.16845714,29.5666286 2.16845714,19.8289143 C2.16845714,16.4069714 3.14788571,13.0882286 5.00125714,10.2314286 C5.32708571,9.72902857 5.18411429,9.0576 4.68182857,8.73177143 C4.17931429,8.40594286 3.50822857,8.5488 3.18228571,9.0512 C1.10045714,12.2602286 0,15.9870857 0,19.8289143 C0,30.7622857 8.89497143,39.6571429 19.8283429,39.6571429 C23.4108571,39.6571429 26.9209143,38.6908571 29.9809143,36.8633143 C29.3117714,36.5387429 28.8466286,35.8592 28.8466286,35.0656" id="Fill-6" fill="#07DB9C" mask="url(#mask-2)"></path>
+					                        </g>
+					                        <path d="M30.999943,33 C29.9140217,33 29.0349046,33.8667978 29.0054752,34.945761 C29.005019,34.9642399 29,34.9814641 29,35.000057 C29,35.7921408 29.4642541,36.4703853 30.1321185,36.7943366 C30.3956141,36.922092 30.6875125,37 30.999943,37 C32.1045712,37 33,36.1045712 33,35.000057 C33,33.8954288 32.1045712,33 30.999943,33" id="Fill-8" fill="#8659FA"></path>
+					                        <path d="M9.90392677,3.22516254 C9.63130579,3.08600433 9.32708815,3 9.00005703,3 C7.89542875,3 7,3.89540322 7,5 C7,6.10448272 7.89542875,7 9.00005703,7 C10.0718339,7 10.9396584,6.15467093 10.9904183,5.09547166 C10.9920153,5.06319151 11,5.03262233 11,5 C11,4.22253907 10.5518294,3.55617657 9.90392677,3.22516254" id="Fill-9" fill="#8659FA"></path>
+					                        <g id="Group-3" transform="translate(50.000000, 9.000000)" fill="#034FCF">
+					                            <polyline id="Fill-10" points="5.4228021 22 5.4228021 4.97131458 0 4.97131458 0 2 14 2 14 4.97131458 8.41081169 4.97131458 8.41081169 22 5.4228021 22"></polyline>
+					                            <path d="M21.415112,8.77848296 C20.3265455,8.77848296 19.3765964,9.04675029 18.5653782,9.58328493 C17.7534772,10.1197048 17.2184693,11.0411996 16.9606959,12.3470809 L25.0951835,12.3470809 L25.0951835,12.1426102 C25.0397594,11.4796297 24.8320611,10.895018 24.4726578,10.3875132 C24.1126854,9.88046729 23.6651953,9.48575404 23.1306426,9.20268497 C22.5951794,8.92018961 22.0236394,8.77848296 21.415112,8.77848296 Z M27.3638174,19.6893211 L27.3360484,19.6893211 C26.7455026,20.2938979 25.9342844,20.8304325 24.9011421,21.2982366 C23.8679998,21.7660406 22.7892208,22 21.6642361,22 C20.15151,22 18.8187132,21.6641495 17.6659594,20.9913011 C16.5132057,20.3184527 15.6137869,19.3921387 14.968386,18.2122444 C14.322416,17.0323501 14,15.692161 14,14.1900705 C14,12.4746742 14.3414218,11.0068917 15.0238101,9.78775557 C15.7061984,8.5690784 16.6099419,7.63347031 17.7356095,6.97978385 C18.8600252,6.32655637 20.0873227,6 21.415112,6 C22.632622,6 23.73917,6.31726225 24.735325,6.9502951 C25.7314799,7.58447538 26.5242613,8.45686051 27.1148071,9.56859792 C27.704784,10.6797616 28,11.9773814 28,13.4588183 L27.972231,14.7461113 L16.8498476,14.7461113 C17.01612,16.13105 17.5555664,17.2275267 18.4685282,18.0365741 C19.3814901,18.84631 20.5386823,19.250891 21.9409015,19.250891 C22.955038,19.250891 23.7761574,19.0507806 24.4030078,18.6511334 C25.0300858,18.2514863 25.5465431,17.8659524 25.9527212,17.495794 L27.3638174,19.6893211 L27.3638174,19.6893211 Z" id="Fill-11"></path>
+					                            <path d="M39.2428592,9.64167002 C39.0560247,9.54249332 38.8268642,9.45795309 38.5563002,9.38793223 C38.2846983,9.31884811 37.9998334,9.28383768 37.7010136,9.28383768 C37.1026821,9.28383768 36.5136922,9.44800029 35.9345054,9.77632552 C35.3548573,10.1045336 34.8732396,10.5724322 34.4908056,11.1790845 C34.1073337,11.7865564 33.9155401,12.5076073 33.9155401,13.3434081 L33.9155401,22 L31,22 L31,6.32820813 L33.9155401,6.32820813 L33.9155401,9.28383768 C34.3266912,8.32848622 34.9482041,7.54280069 35.780194,6.92525888 C36.6117226,6.3087709 37.4856927,6 38.4019888,6 C39.0930456,6 39.6258698,6.10011343 40,6.29870101 L39.2428592,9.64167002" id="Fill-12"></path>
+					                            <path d="M49.5386445,6 C50.7531047,6 51.724788,6.29489025 52.4533488,6.88349543 C53.1820249,7.47327594 53.7052745,8.27696647 54.0230976,9.29562483 C54.2842037,8.79634472 54.6675051,8.2920107 55.1720795,7.78274028 C55.6765387,7.27335233 56.2648054,6.8488232 56.937802,6.50927041 C57.6103373,6.16971763 58.3292147,6 59.0958175,6 C60.3659572,6 61.3562004,6.29489025 62.0662014,6.88349543 C62.7762023,7.47327594 63.2757045,8.26192225 63.5658608,9.2509623 C63.8550948,10.2395322 64,11.3437546 64,12.5617489 L64,22 L61.0852957,22 L61.0852957,12.7415744 C61.0852957,11.5832868 60.8798692,10.6438457 60.468901,9.92513149 C60.0575869,9.20582964 59.2819924,8.84617871 58.1429245,8.84617871 C57.0589598,8.84617871 56.1668186,9.21076602 55.4661552,9.93970558 C54.7654919,10.6694679 54.4151602,11.5531984 54.4151602,12.5914847 L54.4151602,22 L51.5004559,22 L51.5004559,12.6812799 C51.5004559,11.5631887 51.2763543,10.6438457 50.8279205,9.92513149 C50.3797173,9.20582964 49.6411272,8.84617871 48.6138795,8.84617871 C47.9038786,8.84617871 47.2688088,9.01636647 46.7082089,9.35544912 C46.1480701,9.69558957 45.7085128,10.1395117 45.3911508,10.6890959 C45.0728666,11.2386801 44.9147043,11.853025 44.9147043,12.5316604 L44.9147043,22 L42,22 L42,6.26915053 L44.9147043,6.26915053 L44.9147043,8.78635442 C45.3631381,8.06705257 45.9938274,7.42308935 46.8061957,6.85387712 C47.6191404,6.28431229 48.5301873,6 49.5386445,6" id="Fill-13"></path>
+					                            <path d="M68.5508197,22 L71.5362146,22 L71.5362146,6.98029014 L68.5508197,6.98029014 L68.5508197,22 Z M70.0005961,3.71940993 C69.3233979,3.71940993 68.8214605,3.54771378 68.4935917,3.20432148 C68.1645306,2.86092918 68,2.41294811 68,1.85948052 C68,1.38322009 68.1645306,0.953979719 68.4935917,0.57220828 C68.8214605,0.19088572 69.3233979,0 70.0005961,0 C70.6766021,0 71.1785395,0.17169615 71.5076006,0.51508845 C71.8354694,0.858592969 72,1.30646181 72,1.85948052 C72,2.33675093 71.8354694,2.76599131 71.5076006,3.14731387 C71.1785395,3.52897309 70.6766021,3.71940993 70.0005961,3.71940993 L70.0005961,3.71940993 Z" id="Fill-14"></path>
+					                            <path d="M82.8568845,6 C84.2096555,6 85.2568484,6.28874822 85.9996384,6.86577628 C86.7436037,7.44327271 87.2619112,8.21935673 87.5569117,9.19426251 C87.8519121,10.1696366 88,11.2540232 88,12.4475392 L88,22 L85.0570473,22 L85.0570473,12.6567822 C85.0570473,11.9006038 84.9618479,11.2239306 84.7714492,10.626997 C84.5810505,10.0299462 84.2566676,9.56251601 83.7994756,9.22376962 C83.343459,8.88595997 82.7040955,8.74638662 81.8849109,8.80586922 C81.1233162,8.80586922 80.4475183,8.97553515 79.8563421,9.3133448 C79.2663412,9.65209119 78.7997469,10.1000842 78.4565591,10.6570895 C78.1133713,11.2139778 77.9429527,11.8310513 77.9429527,12.5076073 L77.9429527,22 L75,22 L75,6.32820813 L77.9429527,6.32820813 L77.9429527,8.80586922 C78.4001447,8.07029895 79.0665401,7.41821508 79.942139,6.85067145 C80.8189133,6.28371327 81.7897116,6 82.8568845,6" id="Fill-15"></path>
+					                            <path d="M102.095387,15.4504502 L102.095387,6 L105,6 L105,21.7013227 L102.095387,21.7013227 L102.095387,19.1893128 C101.662711,19.9268557 101.028197,20.5795818 100.191844,21.1481949 C99.3543321,21.7163387 98.3532614,22 97.1886321,22 C95.6458463,22 94.3965379,21.4425316 93.4372267,20.3254832 C92.4790756,19.2093733 92,17.6636654 92,15.6901194 L92,6 L94.9046132,6 L94.9046132,14.8523917 C94.9046132,15.6501158 95.0217721,16.388128 95.2572499,17.0654896 C95.4915678,17.7437898 95.8674043,18.287298 96.3847595,18.6955451 C96.9021147,19.1046133 97.5644686,19.3086195 98.3729812,19.3086195 C99.3879718,19.3086195 100.261444,18.9697041 100.995717,18.2918732 C101.72883,17.6145115 102.095387,16.6669795 102.095387,15.4504502" id="Fill-16"></path>
+					                            <path d="M117.282354,10.3664892 C116.764895,9.81967225 116.177909,9.37010295 115.522537,9.01835607 C114.867164,8.66660919 114.261942,8.4908507 113.70801,8.4908507 C113.319345,8.4908507 112.93638,8.53993433 112.557973,8.6376418 C112.178427,8.73546422 111.860429,8.91570576 111.601699,9.17951592 C111.34297,9.44332608 111.214175,9.829443 111.214175,10.337062 C111.232411,11.0405558 111.532173,11.5387489 112.1146,11.8315265 C112.695886,12.1247638 113.420785,12.388574 114.289296,12.6229569 C115.047249,12.8381433 115.785825,13.1063215 116.506165,13.4286412 C117.226505,13.7509609 117.822609,14.2200717 118.293337,14.8351689 C118.764066,15.450726 119,16.3153796 119,17.42867 C119,18.3862031 118.745829,19.206601 118.238628,19.8904383 C117.730287,20.5742756 117.074915,21.0970681 116.271371,21.4582408 C115.466687,21.8191837 114.622112,22 113.735364,22 C112.682209,22 111.642731,21.7995273 110.618071,21.3997313 C109.59227,20.9992456 108.72034,20.3104655 108,19.3333908 L109.938763,17.575576 C110.437986,18.1813623 111.005595,18.6549561 111.642731,18.9968173 C112.281007,19.3387935 113.060615,19.5092642 113.984976,19.5092642 C114.334888,19.5092642 114.687079,19.4463866 115.038131,19.319137 C115.389182,19.1918874 115.688944,18.9870466 115.938556,18.70358 C116.187027,18.4205732 116.312403,18.0343413 116.312403,17.5460339 C116.312403,17.0773829 116.177909,16.7109224 115.911201,16.4471122 C115.642213,16.1833021 115.287742,15.9685756 114.844368,15.8024729 C114.399855,15.6364851 113.91089,15.485211 113.375194,15.3480757 C112.580769,15.1136927 111.800021,14.825858 111.03409,14.4839968 C110.267019,14.1420207 109.629883,13.6535983 109.121542,13.0184998 C108.613201,12.3836311 108.36017,11.5195523 108.36017,10.4249987 C108.36017,9.50723826 108.604082,8.72075062 109.094187,8.0663405 C109.583152,7.41193037 110.225987,6.90396649 111.020412,6.54233392 C111.813698,6.18070134 112.663973,6 113.568957,6 C114.437468,6 115.378924,6.19552988 116.395607,6.58612985 C117.411149,6.97718962 118.252305,7.6020576 118.916796,8.46176836 L117.282354,10.3664892" id="Fill-17"></path>
+					                            <polyline id="Fill-18" points="121 22 128.092142 11.7715365 121.141796 2 125.013301 2 130.183057 9.62845119 135.128495 2 138.716407 2 131.878802 12.0857929 139 22 135.128495 22 129.844838 14.2570088 124.589075 22 121 22"></polyline>
+					                        </g>
+					                    </g>
+					                </g>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+
+				</a>
+				<div class="footer__social">
+					<ul class="social">
+						<li class="social__item">
+							<a href="https://www.facebook.com/TerminusDB-109128707602462" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Facebook">
+								<i class="icon-facebook social__icon" aria-label="Facebook logo"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="https://twitter.com/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Twitter">
+								<i class="icon-twitter social__icon" aria-label="Twitter logo"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="https://ie.linkedin.com/company/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to LinkedIn">
+								<i class="icon-linkedin social__icon" aria-label="LinkedIn logo"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="https://github.com/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Github">
+								<i class="icon-github social__icon" aria-label="Github logo"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footer__col">
+				<h5 class="footer__col-title">
+					<a class="footer__col-title-link" href="https://terminusdb.com/">TerminusDB</a>
+				</h5>
+				<nav class="footer__nav">
+					<ul class="footer__nav-list">
+						<li class="footer__nav-list-item">
+							<a href="https://terminusdb.com/aboutus/" class="footer__nav-list-link">About Us</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<a href="https://terminusdb.com/community/" class="footer__nav-list-link">Community</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<a href="https://academy.terminusdb.com/" class="footer__nav-list-link">Academy</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="footer__col">
+				<h5 class="footer__col-title">
+					<a class="footer__col-title-link" href="https://terminusdb.github.io/terminusdb/#/">Documentation</a>
+				</h5>
+			</div>
+
+			<div class="footer__col">
+				<h5 class="footer__col-title">
+					<a class="footer__col-title-link" href="../contact">Contact</a>
+				</h5>
+				<nav class="footer__nav">
+					<ul class="footer__nav-list">
+						<li class="footer__nav-list-item">
+							<a href="mailto:team@terminusdb.com" class="footer__nav-list-link">team@terminusdb.com</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<span class="">Ireland:</span>
+							<a href="tel:011234567" class="footer__nav-list-link">01 123 4567</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<span class="">UK:</span>
+							<a href="tel:+442038688894" class="footer__nav-list-link">+44 20 3868 8894</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<span class="">US:</span>
+							<a href="tel:+1628-239-2068" class="footer__nav-list-link">+1 628-239-2068</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="footer__col">
+				<div class="footer__action">
+					<button class="footer__cta" id="backToTop" aria-label="Back to Top">
+						<i class="icon-arrow-up footer__cta-icon"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__row footer__row--second">
+		<div class="wrapper footer__wrapper">
+			<p class="footer__copyright-paragraph">
+				<a href="https://terminusdb.com/service/" class="footer__copyright-link">Terms and conditions</a>
+			</p>
+
+			<div class="footer__copyright">
+				<div class="footer__copyright-col">
+					<p class="footer__copyright-text">
+						©2021 TerminusDB<span class="footer__divisor">|</span>All right reserved
+					</p>
+				</div>
+
+				<div class="footer__copyright-col">
+					<p class="footer__copyright-paragraph">Hero illustration based on work of <a href="https://lottiefiles.com/BojanMitevskii" target="_blank" rel="noopener" class="footer__copyright-credit">Bojan MItevski @ LottieFiles</a><span class="footer__divisor">|</span><a href="https://kooba.ie" target="_blank" rel="noopener" class="footer__copyright-credit">CC BY</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- All JS actions that are site wide should be in this file -->
+<script src="../js/vendors.js"></script>
+<script src="../js/main.js"></script>
+
+
+</body>
+</html>
