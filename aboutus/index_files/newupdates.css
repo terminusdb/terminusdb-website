@@ -89,7 +89,7 @@
 }
 
 .dropdown.custom a {
-    color: #00c08b;
+    color: #e87cd6;
     text-transform: capitalize;
     font-size: 14px;
     opacity: 0.7;
@@ -724,21 +724,21 @@ video#movie {
 .abouthero h1 {
     text-align: right;
     font-size: 40px;
-    color: #00c08b;
+    color: #e87cd6;
     cursor:
 }
 
 .lgreen {
-    color: #00c08b;
+    color: #e87cd6;
 }
 
 .bgblue {
-    background: #073f7d;
+    background: #3450dc;
     color: #fff;
 }
 
 .colorblue {
-    color: #0b305c;
+    color: #3450dc;
 }
 
 .aboutus .card-list__item {
@@ -793,21 +793,21 @@ video#movie {
 
 .aboutus .more .seprate.bblue {
     background: rgb(0, 57, 124);
-    background: linear-gradient(180deg, rgba(0, 57, 124, 1) 0%, rgba(9, 9, 121, 1) 62%, rgba(0, 43, 92, 1) 140%);
+    background: linear-gradient(0deg, rgba(52, 80, 220, 1) 0%, rgba(134, 89, 250, 1) 62%, rgba(232, 123, 214, 1) 140%);
 
 }
 
 .aboutus .more .seprate.bgreen {
     background: rgb(146, 227, 205);
-    background: linear-gradient(180deg, rgba(146, 227, 205, 1) 0%, rgba(0, 187, 135, 1) 62%, rgba(0, 96, 70, 1) 140%);
+    background: linear-gradient(180deg, rgba(52, 80, 220, 1) 0%, rgba(134, 89, 250, 1) 62%, rgba(232, 123, 214, 1) 140%)
 }
 
 .aboutus .more .seprate button {
     padding: 8px 30px;
     border-radius: 50px;
     box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
-    background-color: #0b305c;
-    color: #fff;
+    background-color: #fed893;
+    color: #3450dc;
     margin-top: 25px;
     outline: none;
 }
