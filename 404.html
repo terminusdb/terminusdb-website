@@ -1,3 +1,4 @@
+<!-- include "meta-head.html" -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,24 +9,48 @@
 
     <title>404 - Oh no, this page doesn't exist</title>
 
-	<meta name="BUILD DATA PRODUCTS" content="Companies of all shapes and sizes build, curate, and share versioned data products with TerminusX – the beating heart of your enterprise data mesh">
-
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Lexend:wght@400;500&display=swap" rel="stylesheet">
 
-	<link rel="icon" type="image/png" href="img/logos/terminusx-color.png"/>
+	<link rel="icon" type="image/png" href="../img/logos/terminusx-color.png"/>
 
-    <script>
-        // Picture element HTML5 shiv
-        document.createElement("picture");
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js"
-            integrity="sha256-iT+n/otuaeKCgxnASny7bxKeqCDbaV1M7VdX1ZRQtqg="
-            crossorigin="anonymous"
-            async></script>
+    <style>
+        .cd {
+            display: flex;
+            margin-top: 200px;
+            width: 100%;
+        }
+
+        .cd-img {
+            margin-top: 150px;
+            width: 600px;
+        }
+
+        .cd-header {
+            font-size: 200px !important;
+        }
+
+        .cd-paragh {
+            font-size: 30px !important;
+            margin-top: 80px;
+        }
+
+        .cd-section {
+            height: 1100px;
+        }
+
+        .cd-content {
+            margin-left: -100px;
+            margin-top: 50px;
+        }
+
+        .cd-box-grid {
+            margin-left: 600px;
+        }
+    </style>
 </head>
 
 
@@ -34,7 +59,7 @@
 <header class="header">
 	<div class="wrapper header__wrapper">
 		<div class="header__logo-container">
-			<a class="header__logo-link" href="/" aria-label="Click to go to homepage">
+			<a class="header__logo-link" href="../" aria-label="Click to go to homepage">
 				<svg width="231" height="49" viewBox="0 0 231 49" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 				    <defs><path id="a" d="M0 0h48.58v48.572H0z"/></defs>
 				    <g fill="none" fill-rule="evenodd">
@@ -52,18 +77,18 @@
 			<nav class="header__nav">
 				<ul class="header__nav-list">
 					<li class="header__nav-item header__nav-item--has-child">
-						<a href="/community" class="header__nav-link">TerminusDB</a>
+						<a href="https://terminusdb.com/community/" class="header__nav-link">TerminusDB</a>
 						<i class="icon-caret-down header__nav-link-icon"></i>
 						<div class="header__nav-dropdown header__nav-dropdown--desktop">
 							<div class="header__nav-main">
 								<ul class="header__nav-dropdown-plain-list">
 									<li class="header__nav-dropdown-plain-item">
-										<a href="/aboutus/" class="header__nav-dropdown-plain-link">
+										<a href="https://terminusdb.com/aboutus/" class="header__nav-dropdown-plain-link">
 											About Us
 										</a>
 									</li>
 									<li class="header__nav-dropdown-plain-item">
-										<a href="/community/" class="header__nav-dropdown-plain-link">
+										<a href="https://terminusdb.com/community/" class="header__nav-dropdown-plain-link">
 											Community
 										</a>
 									</li>
@@ -77,7 +102,7 @@
 						</div>
 					</li>
 					<li class="header__nav-item">
-						<a href="https://docs.terminusdb.com" class="header__nav-link" target="_blank" rel="noopener">Documentation</a>
+						<a href="https://terminusdb.github.io/terminusdb/#/" class="header__nav-link" target="_blank" rel="noopener">Documentation</a>
 					</li>
 
 					<li class="header__nav-item">
@@ -85,7 +110,7 @@
 					</li>
 
 					<li class="header__nav-item">
-						<a href="./pricing" class="header__nav-link">Pricing</a>
+						<a href="../pricing" class="header__nav-link">Pricing</a>
 					</li>
 
 				</ul>
@@ -93,7 +118,7 @@
 				<a href="https://dashboard.terminusdb.com/" class="button button--ghost button--small header__button button--hidden-mobile">Sign in</a>
 			</nav>
 
-			<a href="./pricing" class="button button--full-width button--hidden-desktop">Public Beta</a>
+			<a href="../pricing" class="button button--full-width button--hidden-desktop">Public Beta</a>
 		</div>
 		<div class="header__burger">
 			<button class="hamburger" type="button">
@@ -110,197 +135,181 @@
 
 
 
-		<main>
+<main>
 
-			<section class="hero-banner">
-				<div class="wrapper hero-banner__wrapper">
-					<div class="hero-banner__col hero-banner__col--graphic">
-						<img src="img/logos/cowduck-lost.png" aria-hidden="true" class="hero-banner__image" alt="CowDuck is lost">
-					</div>
-					<div class="hero-banner__col hero-banner__col--text">
-						<h1 class="h1 hero-banner__heading">hello</h1>
-						<p class="hero-banner__description"><strong>It's not me you're looking for.</strong></p>
-						<p class="hero-banner__description">We're sorry, but this page doesn't exist. Try our <a href="../">home page</a>, <a href="https://docs.terminusdb.com">documentation</a>, or our <a href="https://blog.terminusdb.com">blog</a>.</p>
-					</div>
-				</div>
+    <section class="hero-banner hero-banner--alt cd-section">
+		<div class="wrapper hero-banner__wrapper">
+            <div class="cd">
+                <img src="./img/placeholders/cowDuchGlitch.gif" aria-hidden="true" class="hero-banner__image cd-img" alt="CowDuck is lost">
+                <div class="hero-banner__content cd-content">
+                    <h1 class="h1 hero-banner__heading cd-header">404</h1>
+                    <p class="p hero-banner__description cd-paragh">Hello, It's not me you're looking for!</p>
+                    
+                </div>
+            </div>
+		</div>
+	</section>
 
-				<div class="primary-slider">
-					<p class="primary-slider__heading">Trusted by</p>
-					<div class="primary-slider__slider">
-						<ul class="primary-slider__list">
-							<li class="primary-slider__item primary-slider__item--first">
-								<picture class="primary-slider__picture">
-									<img src="img/logos/cavai.png" alt="Cavai Logo" class="primary-slider__image">
-								</picture>
-							</li>
-							<li class="primary-slider__item primary-slider__item--second">
-								<picture class="primary-slider__picture">
-									<img src="img/logos/bombora.png" alt="Bombora Logo" class="primary-slider__image">
-								</picture>
-							</li>
-							<li class="primary-slider__item primary-slider__item--third">
-								<picture class="primary-slider__picture">
-									<img src="img/logos/capital-one.png" alt="Capital One Logo" class="primary-slider__image">
-								</picture>
-							</li>
-						</ul>
-
-						<ul class="primary-slider__list primary-slider__list--hidden">
-							<li class="primary-slider__item primary-slider__item--first">
-								<picture class="primary-slider__picture">
-									<img src="img/logos/cavai.png" alt="Cavai Logo" class="primary-slider__image">
-								</picture>
-							</li>
-							<li class="primary-slider__item primary-slider__item--second">
-								<picture class="primary-slider__picture">
-									<img src="img/logos/bombora.png" alt="Bombora Logo" class="primary-slider__image">
-								</picture>
-							</li>
-							<li class="primary-slider__item primary-slider__item--third">
-								<picture class="primary-slider__picture">
-									<img src="img/logos/capital-one.png" alt="Capital One Logo" class="primary-slider__image">
-								</picture>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-
-			
-
-
-			
-
-
-			
-
-			
-
-
-		</main>
-
-		<footer class="footer">
-			<div class="footer__row">
-				<div class="wrapper footer__wrapper">
-					<div class="footer__col">
-						<a href="/" class="footer__logo" aria-label="Click here to go to Homepage">
-							<img src="img/logos/terminus-alt.svg"
-								 alt="Terminus Logo">
-						</a>
-						<div class="footer__social">
-							<ul class="social">
-								<li class="social__item">
-									<a href="https://www.facebook.com/TerminusDB-109128707602462" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Facebook">
-										<i class="icon-facebook social__icon" aria-label="Facebook logo"></i>
-									</a>
+    <section class="page-strip page-strip--no-space">
+		<div class="wrapper">
+			<div class="boxes-grid">
+				
+				<div class="boxes-grid__item cd-box-grid">
+					<div class="box">
+						<div class="box__content">
+							<div class="box__top">
+								<p class="box__heading">Ooops!</p>
+								<p class="box__description">We're sorry, but this page doesn't exist.</p>
+							</div>
+							<div class="box__middle">
+								<p class="box__middle-text">Try our</p>
+							</div>
+							<ul class="box__list">
+								<li class="box__list-item">
+									<a href="../">Home</a>
 								</li>
-								<li class="social__item">
-									<a href="https://twitter.com/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Twitter">
-										<i class="icon-twitter social__icon" aria-label="Twitter logo"></i>
-									</a>
+								<li class="box__list-item">
+									<a href="https://docs.terminusdb.com">Documentation</a>
 								</li>
-								<li class="social__item">
-									<a href="https://ie.linkedin.com/company/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to LinkedIn">
-										<i class="icon-linkedin social__icon" aria-label="LinkedIn logo"></i>
-									</a>
-								</li>
-								<li class="social__item">
-									<a href="https://github.com/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Github">
-										<i class="icon-github social__icon" aria-label="Github logo"></i>
-									</a>
+								<li class="box__list-item">
+									<a href="https://blog.terminusdb.com">Blog</a>
 								</li>
 							</ul>
-						</div>
-					</div>
-
-					<div class="footer__col">
-						<h5 class="footer__col-title">
-							<a class="footer__col-title-link" href="/">TerminusDB</a>
-						</h5>
-						<nav class="footer__nav">
-							<ul class="footer__nav-list">
-								<li class="footer__nav-list-item">
-									<a href="/aboutus/" class="footer__nav-list-link">About Us</a>
-								</li>
-								<li class="footer__nav-list-item">
-									<a href="/community/" class="footer__nav-list-link">Community</a>
-								</li>
-								<li class="footer__nav-list-item">
-									<a href="https://academy.terminusdb.com/" class="footer__nav-list-link">Academy</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-
-					<div class="footer__col">
-						<h5 class="footer__col-title">
-							<a class="footer__col-title-link" href="https://docs.terminusdb.com" target="_blank" rel="noopener">Documentation</a>
-						</h5>
-					</div>
-
-					<div class="footer__col">
-						<h5 class="footer__col-title">
-							<a class="footer__col-title-link" href="./contact">Contact</a>
-						</h5>
-						<nav class="footer__nav">
-							<ul class="footer__nav-list">
-								<li class="footer__nav-list-item">
-									<a href="mailto:team@terminusdb.com" class="footer__nav-list-link">team@terminusdb.com</a>
-								</li>
-								<li class="footer__nav-list-item">
-									<span class="">Ireland:</span>
-									<a href="tel:011234567" class="footer__nav-list-link">01 123 4567</a>
-								</li>
-								<li class="footer__nav-list-item">
-									<span class="">UK:</span>
-									<a href="tel:+442038688894" class="footer__nav-list-link">+44 20 3868 8894</a>
-								</li>
-								<li class="footer__nav-list-item">
-									<span class="">US:</span>
-									<a href="tel:+1628-239-2068" class="footer__nav-list-link">+1 628-239-2068</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-
-					<div class="footer__col">
-						<div class="footer__action">
-							<button class="footer__cta" id="backToTop" aria-label="Back to Top">
-								<i class="icon-arrow-up footer__cta-icon"></i>
-							</button>
+							<a href="../contact" class="button">Contact Us</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="footer__row footer__row--second">
-				<div class="wrapper footer__wrapper">
-					<ul class="footer__extra-links">
-						<li class="footer__extra-item">
-							<a href="/service/" class="footer__extra-link">Terms & Conditions</a>
-						</li>
+		</div>
+	</section>
 
-						<li class="footer__extra-item">
-							<a href="/policy/" class="footer__extra-link">Privacy Policy</a>
+
+
+
+
+</main>
+
+<footer class="footer">
+	<div class="footer__row">
+		<div class="wrapper footer__wrapper">
+			<div class="footer__col">
+				<a href="https://terminusdb.com/community/" class="footer__logo" aria-label="Click here to go to Homepage">
+					<img src="../img/logos/terminus-alt.svg"
+						 alt="Terminus Logo">
+				</a>
+				<div class="footer__social">
+					<ul class="social">
+						<li class="social__item">
+							<a href="https://www.facebook.com/TerminusDB-109128707602462" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Facebook">
+								<i class="icon-facebook social__icon" aria-label="Facebook logo"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="https://twitter.com/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Twitter">
+								<i class="icon-twitter social__icon" aria-label="Twitter logo"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="https://ie.linkedin.com/company/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to LinkedIn">
+								<i class="icon-linkedin social__icon" aria-label="LinkedIn logo"></i>
+							</a>
+						</li>
+						<li class="social__item">
+							<a href="https://github.com/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Github">
+								<i class="icon-github social__icon" aria-label="Github logo"></i>
+							</a>
 						</li>
 					</ul>
-
-					<div class="footer__copyright">
-						<div class="footer__copyright-col">
-							<p class="footer__copyright-text">
-								©2021 TerminusDB<span class="footer__divisor">|</span>All right reserved
-							</p>
-						</div>
-					</div>
 				</div>
 			</div>
-		</footer>
+
+			<div class="footer__col">
+				<h5 class="footer__col-title">
+					<a class="footer__col-title-link" href="https://terminusdb.com/">TerminusDB</a>
+				</h5>
+				<nav class="footer__nav">
+					<ul class="footer__nav-list">
+						<li class="footer__nav-list-item">
+							<a href="https://terminusdb.com/aboutus/" class="footer__nav-list-link">About Us</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<a href="https://terminusdb.com/community/" class="footer__nav-list-link">Community</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<a href="https://academy.terminusdb.com/" class="footer__nav-list-link">Academy</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="footer__col">
+				<h5 class="footer__col-title">
+					<a class="footer__col-title-link" href="https://terminusdb.github.io/terminusdb/#/" target="_blank" rel="noopener">Documentation</a>
+				</h5>
+			</div>
+
+			<div class="footer__col">
+				<h5 class="footer__col-title">
+					<a class="footer__col-title-link" href="../contact">Contact</a>
+				</h5>
+				<nav class="footer__nav">
+					<ul class="footer__nav-list">
+						<li class="footer__nav-list-item">
+							<a href="mailto:team@terminusdb.com" class="footer__nav-list-link">team@terminusdb.com</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<span class="">Ireland:</span>
+							<a href="tel:011234567" class="footer__nav-list-link">01 123 4567</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<span class="">UK:</span>
+							<a href="tel:+442038688894" class="footer__nav-list-link">+44 20 3868 8894</a>
+						</li>
+						<li class="footer__nav-list-item">
+							<span class="">US:</span>
+							<a href="tel:+1628-239-2068" class="footer__nav-list-link">+1 628-239-2068</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="footer__col">
+				<div class="footer__action">
+					<button class="footer__cta" id="backToTop" aria-label="Back to Top">
+						<i class="icon-arrow-up footer__cta-icon"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__row footer__row--second">
+		<div class="wrapper footer__wrapper">
+			<ul class="footer__extra-links">
+				<li class="footer__extra-item">
+					<a href="https://terminusdb.com/service/" class="footer__extra-link">Terms & Conditions</a>
+				</li>
+
+				<li class="footer__extra-item">
+					<a href="https://terminusdb.com/policy/" class="footer__extra-link">Privacy Policy</a>
+				</li>
+			</ul>
+
+			<div class="footer__copyright">
+				<div class="footer__copyright-col">
+					<p class="footer__copyright-text">
+						©2021 TerminusDB<span class="footer__divisor">|</span>All right reserved
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 
 
-		<!-- All JS actions that are site wide should be in this file -->
-		<script src="./js/vendors.js"></script>
-		<script src="./js/main.js"></script>
+<!-- All JS actions that are site wide should be in this file -->
+<script src="../js/vendors.js"></script>
+<script src="../js/main.js"></script>
 
 
-		<script src="./js/homepage.js"></script>
-	</body>
+</body>
 </html>
