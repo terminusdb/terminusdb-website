@@ -6,39 +6,50 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 
+
 <url>
   <loc>https://terminusdb.com/</loc>
-  <lastmod>2021-09-30T08:08:03+00:00</lastmod>
+  <lastmod>2021-10-21T09:33:24+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/community/</loc>
-  <lastmod>2021-09-30T08:08:03+00:00</lastmod>
+  <lastmod>2021-10-21T09:33:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/aboutus/</loc>
-  <lastmod>2021-09-30T08:08:03+00:00</lastmod>
+  <lastmod>2021-10-21T09:33:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/</loc>
+  <lastmod>2021-10-20T13:34:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/pricing/</loc>
-  <lastmod>2021-09-30T08:08:03+00:00</lastmod>
+  <lastmod>2021-10-21T09:33:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/contact/</loc>
-  <lastmod>2021-09-30T08:08:03+00:00</lastmod>
+  <lastmod>2021-10-21T09:33:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/service/</loc>
-  <lastmod>2021-09-30T08:08:03+00:00</lastmod>
+  <lastmod>2021-10-21T09:33:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/policy/</loc>
-  <lastmod>2021-09-30T08:08:03+00:00</lastmod>
+  <lastmod>2021-10-21T09:33:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/v10.0/</loc>
+  <lastmod>2021-10-20T13:34:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
