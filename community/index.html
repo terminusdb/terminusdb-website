@@ -96,11 +96,39 @@
 		<div class="header__items">
 			<nav class="header__nav">
 				<ul class="header__nav-list">
-					<li class="header__nav-item">
-						<a href="/why-terminus/" class="header__nav-link">Why TerminusX</a>
-					</li>
 					<li class="header__nav-item header__nav-item--has-child">
-						<a href="/" class="header__nav-link">TerminusDB</a>
+						<a href="products/terminusdb/" class="header__nav-link">Products</a>
+						<i class="icon-caret-down header__nav-link-icon"></i>
+						<div class="header__nav-dropdown header__nav-dropdown--desktop">
+							<div class="header__nav-main">
+								<ul class="header__nav-dropdown-plain-list">
+									<li class="header__nav-dropdown-plain-item">
+										<a href="/products/terminusdb/" class="header__nav-dropdown-plain-link">
+											TerminusDB
+										</a>
+									</li>
+									<li class="header__nav-dropdown-plain-item">
+										<a href="/products/terminusx/" class="header__nav-dropdown-plain-link">
+											TerminusX
+										</a>
+									</li>
+									<li class="header__nav-dropdown-plain-item">
+										<a href="/products/jsondiff/" class="header__nav-dropdown-plain-link">
+											JSON Diff &amp; Patch 
+										</a>
+									</li>
+									<li class="header__nav-dropdown-plain-item">
+										<a href="/products/schema-as-a-service/" class="header__nav-dropdown-plain-link">
+											Schema as a service
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+
+					<li class="header__nav-item header__nav-item--has-child">
+						<a href="#" class="header__nav-link">Community</a>
 						<i class="icon-caret-down header__nav-link-icon"></i>
 						<div class="header__nav-dropdown header__nav-dropdown--desktop">
 							<div class="header__nav-main">
@@ -111,7 +139,7 @@
 										</a>
 									</li>
 									<li class="header__nav-dropdown-plain-item">
-										<a href="#" class="header__nav-dropdown-plain-link">
+										<a href="/community/" class="header__nav-dropdown-plain-link">
 											Community
 										</a>
 									</li>
@@ -169,7 +197,7 @@
 					<div class="hero-banner__col hero-banner__col--text">
 						<h1 class="h1 hero-banner__heading">Terminusdb community</h1>
 					  <p class="hero-banner__description">Join the pioneers at the forefront of the data-centric knowledge graph database revolution. If you want to learn how to use TerminusDB or just hang out with like-minded terminators, head on over to our GitHub repository, give us a star while you’re there!</p>
-						<a class="button" href="https://github.com/terminusdb/terminusdb">
+						<a class="button" href="https://github.com/terminusdb/">
 							<span class="button__text">
 								Github Repo
 							</span>
@@ -311,7 +339,7 @@
 					<p class="p page-strip__description">&nbsp;</p>
               </div>
 				<div class="wrapper wrapper--narrow">
-					<img src="index_files/terminusdb-contributors.jpg" alt="TerminusDB Open Source contributors" width="100%""; height="auto">
+					<img src="index_files/terminusdb-contributors.jpg" alt="TerminusDB Open Source contributors" width="100%" height="auto">
 				</div>
 			</section>
 
@@ -372,28 +400,40 @@
 
 					<div class="footer__col">
 						<h5 class="footer__col-title">
-							<a class="footer__col-title-link" href="/">TerminusDB</a>
+							<a class="footer__col-title-link" href="/">Products</a>
 						</h5>
 						<nav class="footer__nav">
 							<ul class="footer__nav-list">
 								<li class="footer__nav-list-item">
-									<a href="/aboutus/" class="footer__nav-list-link">About Us</a>
+									<a href="/products/terminusdb/" class="footer__nav-list-link">TerminusDB</a>
 								</li>
 								<li class="footer__nav-list-item">
-									<a href="#" class="footer__nav-list-link">Community</a>
+									<a href="/products/terminusx/" class="footer__nav-list-link">TerminusX</a>
 								</li>
 								<li class="footer__nav-list-item">
-									<a href="https://academy.terminusdb.com/" class="footer__nav-list-link">Academy</a>
+									<a href="/products/jsondiff/" class="footer__nav-list-link">JSON Diff</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="/products/schema-as-a-service/" class="footer__nav-list-link">Schema</a>
 								</li>
 							</ul>
 						</nav>
 					</div>
 
-			<div class="footer__col">
-				<h5 class="footer__col-title">
-					<a class="footer__col-title-link" href="/docs/" target="_blank" rel="noopener">Documentation</a>
-				</h5>
-			</div>
+					<div class="footer__col">
+						<h5 class="footer__col-title">
+							<a class="footer__col-title-link" href="/docs/" rel="noopener">Documentation</a>
+						</h5>
+						<h5 class="footer__col-title">
+							<a class="footer__col-title-link" href="/aboutus/" rel="noopener">About Us</a>
+						</h5>
+						<h5 class="footer__col-title">
+							<a class="footer__col-title-link" href="/community/" rel="noopener">Community</a>
+						</h5>
+						<h5 class="footer__col-title">
+							<a class="footer__col-title-link" href="https://academy.terminusdb.com" target="_blank" rel="noopener">Academy</a>
+						</h5>
+					</div>
 
 					<div class="footer__col">
 						<h5 class="footer__col-title">
@@ -451,6 +491,7 @@
 				</div>
 			</div>
 		</footer>
+
 
 
 		<!-- All JS actions that are site wide should be in this file -->
