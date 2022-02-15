@@ -1,0 +1,17 @@
+User-agent: *
+Disallow:
+Disallow: /blog/wp-admin/
+Allow: /blog/wp-admin/admin-ajax.php
+Disallow: /blog/wp-includes/
+Allow: /blog/wp-includes/js/
+Allow: /blog/wp-includes/css/
+Allow: /blog/wp-includes/images/
+Disallow: /blog/trackback/
+Disallow: /blog/wp-login.php
+Disallow: /blog/wp-register.php
+Disallow: /blog/author/
+
+Sitemap: https://terminusdb.com/sitemap.xml
+Sitemap: https://terminusdb.com/blog/post-sitemap.xml
+Sitemap: https://terminusdb.com/blog/category-sitemap.xml
+Sitemap: https://terminusdb.com/blog/post_tag-sitemap.xml
