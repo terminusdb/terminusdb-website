@@ -4,769 +4,721 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
 <url>
   <loc>https://terminusdb.com/</loc>
-  <lastmod>2022-01-26T15:10:04+00:00</lastmod>
+  <lastmod>2022-02-15T10:10:04+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/products/terminusdb/</loc>
-  <lastmod>2022-01-26T15:10:04+00:00</lastmod>
+  <lastmod>2022-02-15T10:10:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/products/terminusx/</loc>
-  <lastmod>2022-01-26T15:10:04+00:00</lastmod>
+  <lastmod>2022-02-15T10:10:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/products/jsondiff/</loc>
-  <lastmod>2022-01-26T15:10:04+00:00</lastmod>
+  <lastmod>2022-02-15T10:10:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/products/schema-as-a-service/</loc>
-  <lastmod>2022-01-26T15:10:04+00:00</lastmod>
+  <lastmod>2022-02-15T10:10:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/aboutus/</loc>
-  <lastmod>2022-01-26T15:10:03+00:00</lastmod>
+  <lastmod>2022-02-15T10:10:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/community/</loc>
-  <lastmod>2022-01-26T15:10:03+00:00</lastmod>
+  <lastmod>2022-02-15T10:10:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/pricing/</loc>
-  <lastmod>2022-01-26T15:10:04+00:00</lastmod>
+  <lastmod>2022-02-15T10:10:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/why-terminus/</loc>
-  <lastmod>2022-01-26T15:10:04+00:00</lastmod>
+  <lastmod>2022-02-15T10:10:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/empowering-domain-leaders-with-data-mesh/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/documents</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/database-version-control/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/contact/</loc>
-  <lastmod>2022-01-26T15:10:03+00:00</lastmod>
-  <priority>0.40</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/service/</loc>
-  <lastmod>2022-01-26T15:10:04+00:00</lastmod>
-  <priority>0.40</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/policy/</loc>
-  <lastmod>2022-01-26T15:10:04+00:00</lastmod>
-  <priority>0.40</priority>
+  <lastmod>2022-02-15T10:10:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusdb/install</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/category/terminusdb/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/category/knowledge-graph-database/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/headless-regtech-regulatory-reporting/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/terminusdb-a-technical-history/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/terminusdb-10-0-war-games/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/database-version-control/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/git-like-graph/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/category/data-collaboration-at-scale/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/the-terminusdb-data-mesh-made-for-changemakers/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx/overview/introduction</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/collaboration-key-to-dataops-tools/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/json-diff-and-patch</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx-db/resources/glossary</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx-db/resources/release-history</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusdb</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx-db</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusdb/overview/introduction</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx/quick-start</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx-db/tutorials</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx-db/how-to-guides</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx-db/explanations</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/critical-asset-management-system/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/category/data-mesh/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/category/data-mesh/metaverse/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/category/terminusdb/case-studies/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/category/terminusdb/tutorials-examples/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/category/terminusdb/news-events/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/category/data-landscape/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/code-craic-episode-4/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/ultra-retro-home-computers/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/code-craic-episode-3/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/build-collaborative-software/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/build-a-react-backend-with-terminusx/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/code-craic-episode-2/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/json-diff-and-patch-module/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/2022-application-development-trends/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/code-and-craic-episode-1/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/knowledge-graph-data-mesh-3/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/tag/code-craic/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/paid-vs-organic-which-way-do-you-sway/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/document-graphs-for-data-mesh/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/page/2/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/page/3/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/page/4/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/page/5/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/tag/video/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/what-is-a-data-product/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/knowledge-graph-data-mesh-3/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/what-is-data-mesh-luke/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/data-mesh-learning-interview/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/out-of-the-darkness-data-wars/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/build-a-data-product/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/acid</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/datalog</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/graphs</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/immutability</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/woql</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/resources</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/schema</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/document-interface</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/tag/all-hands/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusdb/overview</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusdb/install/install-from-source-code</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusdb/install/install-as-docker-container</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusdb/overview/get-started</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/getting-started-with-terminusdb-using-the-python-client/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/category/terminusdb/page/2/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/category/terminusdb/page/3/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/category/terminusdb/page/4/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/category/terminusdb/page/5/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/why-graph-will-win/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/graph-fundamentals-part-1-rdf-db/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/graph-fundamentals-part-2-labeled-property-graphs/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/graph-fundamentals-part-3-graph-schema-languages/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/graph-fundamentals-part-4-linked-data/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/human-history-knowledge-graph/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/2022-application-development-trends/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/boxes-and-stars-modelling-relationships-in-rdf-graphs/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/graph-databases-terminusdb-vs-neo4j/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/terminusdb-graph-basics/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/category/knowledge-graph-database/page/2/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/be-like-the-mammals-when-the-asteroid-struck/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/many-worlds-a-philosophy-of-data-collaboration/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/knowledge-graph-data-mesh-metaverse-2/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx/overview</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx/overview/get-started</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx/install</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/document-interface</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/resources</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/resources/contact-us</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/v4.2/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx/install/install-python-client</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/documents</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx/quick-start/get-api-key</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx/quick-start/start-with-client</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/tutorials/javascript-and-python-tutorials</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/how-to-guides/find-object-state</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/how-to-guides/perform-graph-queries</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/how-to-guides/use-regex</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/cli</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/curl</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/http-api</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/schema</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/terminus-store</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/client</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/woql-class</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/acid</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/datalog</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/graphs</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/immutability</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/docs/index/terminusx-db/explanations/woql</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/terminusx-infographic-data-mesh/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/knowledge-graph-data-mesh-metaverse/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/terminusdb-todomvc-feat-svelte/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/dbpedia-hackathon-terminusdb-conflict-data/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/the-power-of-web-object-query-language/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/loading-data-in-turtle-rdf-format-to-terminusdb/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/type-and-mode-checking-in-prolog-part-2/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/prolog-meta-interpretation-for-syntax-checking/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/type-and-mode-checking-in-prolog-part-1/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/september-newsletter-terminusx-public-beta-is-here/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/august-2021-newsletter/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/terminusdb-release-preview/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/terminusdb-closes-a-eur-3-6-million-seed-round/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/terminusdb-joins-the-ai-infrastructure-alliance-as-a-founding-member/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/terminusdb-4-2-encyclopaedia-galactica-release/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/we-love-gplv3-but-are-switching-license-to-apache-2-0-terminusdb/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/terminusdb-4-0-the-stars-end-release/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/category/terminusdb/news-events/page/2/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/category/terminusdb/news-events/page/3/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/collaboration-for-structured-data/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/size-matters/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/continuous-everything-as-code/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/jointhe-data-centric-revolution/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/knowledge-graph-data-mesh-metaverse-2/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/category/data-landscape/page/2/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/docs/index/terminusx/overview</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/our-commitment-to-diversity-and-inclusion-at-terminusdb/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/docs/index/terminusx/overview/get-started</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/meetings-at-terminusdb/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/docs/index/terminusx/install</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/manoeuvring-the-complexities-of-remote-hiring-in-a-start-up/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/resources/contact-us</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/terminusdb-values/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/docs/index/terminusx/install/install-python-client</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx/quick-start/get-api-key</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx/quick-start/start-with-client</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/tutorials/javascript-and-python-tutorials</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/how-to-guides/find-object-state</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/how-to-guides/perform-graph-queries</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/how-to-guides/use-regex</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/cli</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/curl</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/http-api</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/terminus-store</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/client</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/docs/index/terminusx-db/reference-guides/woql-class</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/out-of-the-darkness-data-wars/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/terminusx-infographic-data-mesh/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/knowledge-graph-data-mesh-metaverse/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/api-gateways/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/getting-started-with-terminusdb-using-the-python-client/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/terminusdb-todomvc-feat-svelte/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/dbpedia-hackathon-terminusdb-conflict-data/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/the-power-of-web-object-query-language/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/loading-data-in-turtle-rdf-format-to-terminusdb/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/type-and-mode-checking-in-prolog-part-2/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/modularizing-terminusx/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/document-graphs-for-data-mesh/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/september-newsletter-terminusx-public-beta-is-here/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/august-2021-newsletter/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/terminusdb-release-preview/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/the-future-on-terminusx/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/paid-vs-organic-which-way-do-you-sway/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/achieving-product-market-fit/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/product-roadmap-episode-3/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/delta-rollups/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/terminusdb-from-master-to-main/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/the-decision-to-move-away-from-google-analytics/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/terminusdb-product-roadmap/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/tag/tutorials/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/webinar-terminusdb-internals/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/terminusdb-community-arrived-in-london/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/terminusx-cloud-infrastructure/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/docs/index/terminusx/install/install-javascript-client</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://terminusdb.com/blog/dataops-101/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/reluctantly-remote/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/type-and-mode-checking-in-prolog-part-1/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/meetings-at-terminusdb/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/webinar-terminusdb-internals/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/dataops-101/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://terminusdb.com/blog/dataops-dublin-meetup/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/terminusdb-pyladies-dublin/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/terminusdb-closes-a-eur-3-6-million-seed-round/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/terminalia-our-day/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/terminusdb-joins-the-ai-infrastructure-alliance-as-a-founding-member/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/terminusdb-community-arrived-in-london/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/terminusdb-4-2-encyclopaedia-galactica-release/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/terminusdb-discussions/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/we-love-gplv3-but-are-switching-license-to-apache-2-0-terminusdb/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/terminusdb-1-1-the-big-babushka/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/terminusdb-4-0-the-stars-end-release/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://terminusdb.com/blog/terminusdb-whats-in-a-name/</loc>
-  <lastmod>2022-01-26T15:46:20+00:00</lastmod>
+  <loc>https://terminusdb.com/blog/product-roadmap-episode-3/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://terminusdb.com/blog/tag/data-mesh/</loc>
+  <lastmod>2022-02-15T10:44:38+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 

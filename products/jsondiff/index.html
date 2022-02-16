@@ -20,6 +20,8 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta property="og:url" content="https://www.terminusdb.com/products/jsondiff/" />
 	<meta property="og:description" content="An open-source semantic tool to compare JSON documents to show diffs, and perform patch operations using an API." />
+	<meta name="robots" content="index, follow"> 
+	<link rel="canonical" href="https://terminusdb.com/products/jsondiff/" />
     <link rel="stylesheet" href="/css/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -135,6 +137,11 @@
 											Schema as a service
 										</a>
 									</li>
+									<li class="header__nav-dropdown-plain-item">
+										<a href="https://versionxl.com" target="_blank" class="header__nav-dropdown-plain-link">
+											VersionXL
+										</a>
+									</li>									
 								</ul>
 							</div>
 						</div>
@@ -161,6 +168,11 @@
 											Academy
 										</a>
 									</li>
+									<li class="header__nav-dropdown-plain-item">
+										<a href="/contact/" class="header__nav-dropdown-plain-link">
+											Contact Us
+										</a>
+									</li>									
 								</ul>
 							</div>
 						</div>
@@ -207,9 +219,9 @@
 						<img src="/img/placeholders/json-diff-patch-user-interface-application.png" aria-hidden="true" class="hero-banner__image" alt="JSON Diff and Patch">
 					</div>
 					<div class="hero-banner__col hero-banner__col--text">
-						<h1 class="h1 hero-banner__heading">JSON Diff &amp; Patch Module</h1>
-						<p class="hero-banner__description">An open-source semantic tool to compare JSON documents to show diffs, and perform patch operations using an API.</p>
-						<a href="/docs/index/json-diff-and-patch" class="button"><span class="button__text">Documentation</span></a>
+						<h1 class="h1 hero-banner__heading">JSON Diff &amp; Patch</h1>
+						<p class="hero-banner__description">An open-source semantic tool to compare JSON documents to show diffs and apply patches using a free public API.</p>
+						<a href="/docs/index/json-diff-and-patch" class="button"><span class="button__text">Quick Start >> Docs</span></a>
 					</div>
 				</div>
 
@@ -301,32 +313,30 @@
 
 			<section class="page-strip page-strip--short-margin-top">
 				<h2 style="text-align: center;" class="h1 page-strip__title  page-strip__title--wide">
-			JSON Diff &amp; Patch Module overview
-		</h2>
-							<div class="wrapper" style="margin-top: 5%">
-								<div class="brick brick--small-margin-bottom">
-									<div class="brick__col">
-										<div class="brick__background brick__background--plain">
+				JSON Diff &amp; Patch Module overview
+				</h2>
+						<div class="wrapper" style="margin-top: 5%">
+							<p class="p page-strip__description page-strip__description--medium">Extend the functionality of your MongoDB backend (or other databases) by adding schema informed JSON diff and patch functionality.&nbsp;</p>
+							<p>&nbsp;</p>
+							<p class="p page-strip__description page-strip__description--medium">When objects are modified in a distributed system, it is useful to be able to compare versions of an object to see what has changed according to the current knowledge about an object at some node.</p>
+							<p>&nbsp;</p>
+							<p class="p page-strip__description page-strip__description--medium">This is where diff and patch come in. Diff takes two JSON objects and constructs a difference between the two objects so that the second object can be obtained from the first by means of a patch operation.</p>
+							<p>&nbsp;</p>
+							<p class="p page-strip__description page-strip__description--medium">The diff between two objects can also be used to display to a user a synopsis of differences, in what might otherwise be too large an object to see obviously where things changed. This enables either direct or user-interface assisted choice for how to proceed. This allows the user to retain the original, change to the new, or instead, supply a new change altogether.&nbsp; </p>
+							<p>&nbsp;</p>
+							<div class="p page-strip__description page-strip__description--medium">
+							<a href="/blog/json-diff-and-patch-the-future" target="_blank" class="button"><span class="button__text">More: Tech Blog on Diff & Patch</span></a>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<p class="p page-strip__description page-strip__description--medium"><em>Example patch operation:</em></p>								
+							<p>&nbsp;</p>	
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(238, 238, 238); color: rgb(0, 0, 0);">let diffPatch = await client.getDiff(
+     { <span class="hljs-string" style="color: rgb(221, 17, 68);">"@id"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person/Jane"</span>, <span class="hljs-string" style="color: rgb(221, 17, 68);">"@type"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person"</span>, name: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Jane"</span> },
+     { <span class="hljs-string" style="color: rgb(221, 17, 68);">"@id"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person/Jane"</span>, <span class="hljs-string" style="color: rgb(221, 17, 68);">"@type"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person"</span>, name: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Janine"</span> }
+ );
 
-
-											<img src="/img/placeholders/json-diff-and-patch-tables.jpg" class="brick__full-image" alt="Compare JSON documents" aria-hidden="true">
-
-										</div>
-									</div>
-									<div class="brick__col">
-										<div class="brick__content">
-
-										  <p>Extend the functionality of your MongoDB backend (or other databases) by adding schema informed JSON diff and patch functionality.&nbsp;</p>
-										  <p>&nbsp;</p>
-										  <p>When objects are modified in a distributed system, it is useful to be able to compare versions of an object to see what has changed according to the current knowledge about an object at some node.&nbsp;</p>
-										  <p>&nbsp;</p>
-										  <p>This is where diff and patch come in. Diff takes two JSON objects and constructs a difference between the two objects so that the second object can be obtained from the first by means of a patch operation.&nbsp;</p>
-										  <p>&nbsp;</p>
-										  <p>The diff between two objects can also be used to display to a user a synopsis of differences, in what might otherwise be too large an object to see obviously where things changed. This enables either direct or user-interface assisted choice for how to proceed. This allows the user to retain the original, change to the new, or instead, supply a new change altogether.&nbsp; </p>
-
-									  </div>
-									</div>
-								</div>
+let patch = await client.patch( { <span class="hljs-string" style="color: rgb(221, 17, 68);">"@id"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person/Jane"</span>, <span class="hljs-string" style="color: rgb(221, 17, 68);">"@type"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person"</span>, name: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Jane"</span> }, diffPatch);</pre>
+							</div>
 								
 						</div>
 			</section>
@@ -414,22 +424,22 @@
 						<div class="footer__social">
 							<ul class="social">
 								<li class="social__item">
-									<a href="https://www.facebook.com/TerminusDB-109128707602462" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Facebook">
+									<a href="https://www.facebook.com/TerminusDB-109128707602462" target="_blank" rel="nofollow" class="social__link" aria-label="Click here to go to Facebook">
 										<i class="icon-facebook social__icon" aria-label="Facebook logo"></i>
 									</a>
 								</li>
 								<li class="social__item">
-									<a href="https://twitter.com/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Twitter">
+									<a href="https://twitter.com/terminusdb" target="_blank" rel="nofollow" class="social__link" aria-label="Click here to go to Twitter">
 										<i class="icon-twitter social__icon" aria-label="Twitter logo"></i>
 									</a>
 								</li>
 								<li class="social__item">
-									<a href="https://ie.linkedin.com/company/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to LinkedIn">
+									<a href="https://ie.linkedin.com/company/terminusdb" target="_blank" rel="nofollow" class="social__link" aria-label="Click here to go to LinkedIn">
 										<i class="icon-linkedin social__icon" aria-label="LinkedIn logo"></i>
 									</a>
 								</li>
 								<li class="social__item">
-									<a href="https://github.com/terminusdb" target="_blank" rel="noopener" class="social__link" aria-label="Click here to go to Github">
+									<a href="https://github.com/terminusdb" target="_blank" rel="nofollow" class="social__link" aria-label="Click here to go to Github">
 										<i class="icon-github social__icon" aria-label="Github logo"></i>
 									</a>
 								</li>
@@ -438,9 +448,9 @@
 					</div>
 
 					<div class="footer__col">
-						<h5 class="footer__col-title">
+						<p class="footer__col-title">
 							<a class="footer__col-title-link" href="/products/terminusdb/">Products</a>
-						</h5>
+						</p>
 						<nav class="footer__nav">
 							<ul class="footer__nav-list">
 								<li class="footer__nav-list-item">
@@ -455,29 +465,32 @@
 								<li class="footer__nav-list-item">
 									<a href="/products/schema-as-a-service/" class="footer__nav-list-link">Schema</a>
 								</li>
+								<li class="footer__nav-list-item">
+									<a href="https://versionxl.com" target="_blank" class="footer__nav-list-link">VersionXL</a>
+								</li>								
 							</ul>
 						</nav>
 					</div>
 
 					<div class="footer__col">
-						<h5 class="footer__col-title">
+						<p class="footer__col-title">
 							<a class="footer__col-title-link" href="/docs/" rel="noopener">Documentation</a>
-						</h5>
-						<h5 class="footer__col-title">
+						</p>
+						<p class="footer__col-title">
 							<a class="footer__col-title-link" href="/aboutus/" rel="noopener">About Us</a>
-						</h5>
-						<h5 class="footer__col-title">
+						</p>
+						<p class="footer__col-title">
 							<a class="footer__col-title-link" href="/community/" rel="noopener">Community</a>
-						</h5>
-						<h5 class="footer__col-title">
+						</p>
+						<p class="footer__col-title">
 							<a class="footer__col-title-link" href="https://academy.terminusdb.com" target="_blank" rel="noopener">Academy</a>
-						</h5>
+						</p>
 					</div>
 
 					<div class="footer__col">
-						<h5 class="footer__col-title">
+						<p class="footer__col-title">
 							<a class="footer__col-title-link" href="/contact/">Contact</a>
-						</h5>
+						</p>
 						<nav class="footer__nav">
 							<ul class="footer__nav-list">
 								<li class="footer__nav-list-item">
