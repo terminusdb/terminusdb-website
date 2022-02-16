@@ -327,13 +327,12 @@
 							<div class="p page-strip__description page-strip__description--medium">
 							<a href="/blog/json-diff-and-patch-the-future" target="_blank" class="button"><span class="button__text">More: Tech Blog on Diff & Patch</span></a>
 							<p>&nbsp;</p>
-							<pre>
-							 <code id="htmlViewer" style="color:rgb(51, 51, 51); font-weight:400;background-color:rgb(248, 248, 248);background:rgb(248, 248, 248);display:block;padding: .5em;">let diffPatch = await client.getDiff(
-							     { <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;@id&quot;</span>: <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;Person/Jane&quot;</span>, <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;@type&quot;</span>: <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;Person&quot;</span>, name: <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;Jane&quot;</span> },
-							     { <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;@id&quot;</span>: <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;Person/Jane&quot;</span>, <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;@type&quot;</span>: <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;Person&quot;</span>, name: <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;Janine&quot;</span> }
-							 );
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(238, 238, 238); color: rgb(0, 0, 0);">let diffPatch = await client.getDiff(
+     { <span class="hljs-string" style="color: rgb(221, 17, 68);">"@id"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person/Jane"</span>, <span class="hljs-string" style="color: rgb(221, 17, 68);">"@type"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person"</span>, name: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Jane"</span> },
+     { <span class="hljs-string" style="color: rgb(221, 17, 68);">"@id"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person/Jane"</span>, <span class="hljs-string" style="color: rgb(221, 17, 68);">"@type"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person"</span>, name: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Janine"</span> }
+ );
 
-							let patch = await client.patch( { <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;@id&quot;</span>: <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;Person/Jane&quot;</span>, <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;@type&quot;</span>: <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;Person&quot;</span>, name: <span style="color:rgb(221, 17, 68); font-weight:400;">&quot;Jane&quot;</span> }, diffPatch);</code></pre>
+let patch = await client.patch( { <span class="hljs-string" style="color: rgb(221, 17, 68);">"@id"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person/Jane"</span>, <span class="hljs-string" style="color: rgb(221, 17, 68);">"@type"</span>: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Person"</span>, name: <span class="hljs-string" style="color: rgb(221, 17, 68);">"Jane"</span> }, diffPatch);</pre>
 							</div>
 								
 						</div>
