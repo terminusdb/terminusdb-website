@@ -10,6 +10,7 @@ Disallow: /blog/trackback/
 Disallow: /blog/wp-login.php
 Disallow: /blog/wp-register.php
 Disallow: /blog/author/
+Disallow: /blog/tag/video/page/
 
 Sitemap: https://terminusdb.com/sitemap.xml
 Sitemap: https://terminusdb.com/blog/post-sitemap.xml
